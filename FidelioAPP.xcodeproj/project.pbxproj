@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95785B6C2097777A005CA31C /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95785B6B2097777A005CA31C /* CameraController.swift */; };
+		957D9ECC2094DAA10009F7D0 /* viewClientiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D9ECB2094DAA10009F7D0 /* viewClientiController.swift */; };
+		957D9ECF2094E0D50009F7D0 /* Clienti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D9ECE2094E0D50009F7D0 /* Clienti.swift */; };
+		957D9ED22094E54A0009F7D0 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D9ED12094E54A0009F7D0 /* WebService.swift */; };
+		9588EBE6209F225D004024D7 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9588EBE5209F225D004024D7 /* Login.swift */; };
 		958FA8062092430800F91F0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958FA8052092430800F91F0D /* AppDelegate.swift */; };
 		958FA8082092430800F91F0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958FA8072092430800F91F0D /* ViewController.swift */; };
 		958FA80B2092430800F91F0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958FA8092092430800F91F0D /* Main.storyboard */; };
 		958FA80D2092430800F91F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958FA80C2092430800F91F0D /* Assets.xcassets */; };
 		958FA8102092430800F91F0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958FA80E2092430800F91F0D /* LaunchScreen.storyboard */; };
+		958FA81C20926D8500F91F0D /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958FA81B20926D8500F91F0D /* MainMenuController.swift */; };
+		95D331AD2095D5A30036178A /* viewAcquisto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D331AC2095D5A30036178A /* viewAcquisto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95785B6B2097777A005CA31C /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		957D9ECB2094DAA10009F7D0 /* viewClientiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewClientiController.swift; sourceTree = "<group>"; };
+		957D9ECE2094E0D50009F7D0 /* Clienti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clienti.swift; sourceTree = "<group>"; };
+		957D9ED12094E54A0009F7D0 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		9588EBE5209F225D004024D7 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		958FA8022092430800F91F0D /* FidelioAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FidelioAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		958FA8052092430800F91F0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		958FA8072092430800F91F0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		958FA80C2092430800F91F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		958FA80F2092430800F91F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		958FA8112092430800F91F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958FA81B20926D8500F91F0D /* MainMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
+		95D331AC2095D5A30036178A /* viewAcquisto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewAcquisto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		957D9EC62094D7D50009F7D0 /* Clienti */ = {
+			isa = PBXGroup;
+			children = (
+				957D9ECB2094DAA10009F7D0 /* viewClientiController.swift */,
+			);
+			path = Clienti;
+			sourceTree = "<group>";
+		};
+		957D9EC72094D7F20009F7D0 /* Acquisto */ = {
+			isa = PBXGroup;
+			children = (
+				95D331AC2095D5A30036178A /* viewAcquisto.swift */,
+			);
+			path = Acquisto;
+			sourceTree = "<group>";
+		};
+		957D9EC82094D7FC0009F7D0 /* Impostazioni */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Impostazioni;
+			sourceTree = "<group>";
+		};
+		957D9ECD2094E0B10009F7D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				957D9ECE2094E0D50009F7D0 /* Clienti.swift */,
+				9588EBE5209F225D004024D7 /* Login.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		957D9ED02094E4220009F7D0 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				95785B6B2097777A005CA31C /* CameraController.swift */,
+				957D9ED12094E54A0009F7D0 /* WebService.swift */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
 		958FA7F92092430800F91F0D = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +109,44 @@
 		958FA8042092430800F91F0D /* FidelioAPP */ = {
 			isa = PBXGroup;
 			children = (
-				958FA8052092430800F91F0D /* AppDelegate.swift */,
-				958FA8072092430800F91F0D /* ViewController.swift */,
-				958FA8092092430800F91F0D /* Main.storyboard */,
+				958FA8112092430800F91F0D /* Info.plist */,
 				958FA80C2092430800F91F0D /* Assets.xcassets */,
 				958FA80E2092430800F91F0D /* LaunchScreen.storyboard */,
-				958FA8112092430800F91F0D /* Info.plist */,
+				958FA8092092430800F91F0D /* Main.storyboard */,
+				958FA8052092430800F91F0D /* AppDelegate.swift */,
+				957D9ED02094E4220009F7D0 /* Function */,
+				957D9ECD2094E0B10009F7D0 /* Models */,
+				958FA81720926A1000F91F0D /* FormClass */,
 			);
 			path = FidelioAPP;
+			sourceTree = "<group>";
+		};
+		958FA81720926A1000F91F0D /* FormClass */ = {
+			isa = PBXGroup;
+			children = (
+				958FA81A20926CAC00F91F0D /* MainMenu */,
+				958FA81920926CA100F91F0D /* Login */,
+			);
+			path = FormClass;
+			sourceTree = "<group>";
+		};
+		958FA81920926CA100F91F0D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				958FA8072092430800F91F0D /* ViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		958FA81A20926CAC00F91F0D /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				958FA81B20926D8500F91F0D /* MainMenuController.swift */,
+				957D9EC82094D7FC0009F7D0 /* Impostazioni */,
+				957D9EC72094D7F20009F7D0 /* Acquisto */,
+				957D9EC62094D7D50009F7D0 /* Clienti */,
+			);
+			path = MainMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +221,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				957D9ED22094E54A0009F7D0 /* WebService.swift in Sources */,
 				958FA8082092430800F91F0D /* ViewController.swift in Sources */,
+				957D9ECC2094DAA10009F7D0 /* viewClientiController.swift in Sources */,
 				958FA8062092430800F91F0D /* AppDelegate.swift in Sources */,
+				95D331AD2095D5A30036178A /* viewAcquisto.swift in Sources */,
+				958FA81C20926D8500F91F0D /* MainMenuController.swift in Sources */,
+				9588EBE6209F225D004024D7 /* Login.swift in Sources */,
+				95785B6C2097777A005CA31C /* CameraController.swift in Sources */,
+				957D9ECF2094E0D50009F7D0 /* Clienti.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +370,7 @@
 				DEVELOPMENT_TEAM = DGU6EP6FTM;
 				INFOPLIST_FILE = FidelioAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = iTeo95.FidelioAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = "iTeo95.Fidelio-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +385,7 @@
 				DEVELOPMENT_TEAM = DGU6EP6FTM;
 				INFOPLIST_FILE = FidelioAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = iTeo95.FidelioAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = "iTeo95.Fidelio-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
