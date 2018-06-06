@@ -8,23 +8,29 @@
 
 import Foundation
 
-public struct Login: Decodable {
+ struct Login: Decodable {
     var status: String?
     var token: String?
-    var expires_in: String?
-
-    
-    init(status: String, token: String, indirizzo: String, expires_in: String) {
-        self.status = status
-        self.token = token
-        self.expires_in = expires_in
+    var expires_in: Int?
     }
 
-    
-   init(json: [String: Any]) {
-        status = json["status"] as? String ?? ""
-        token = json["token"] as? String ?? ""
-        expires_in = json["expires_in"] as? String ?? ""
+
+extension Login {
+    private enum Keys: String, CodingKey {
+        case status
+        case token
+        case expires_in
     }
-        
-}
+    
+
+    init(from decoder: Decoder) throws {
+        let keyedContainer = try decoder.container(keyedBy: Keys.self)
+        status = try keyedContainer.decode(String.self, forKey: .status)
+        token = try keyedContainer.decode(String.self, forKey: .token)
+        expires_in = try keyedContainer.decode(Int.self, forKey: .expires_in)
+    }
+    
+
+    }
+ 
+

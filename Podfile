@@ -8,5 +8,6 @@ target 'FidelioAPP' do
 
   # Pods for FidelioAPP
 	pod 'QRCodeReader.swift', '~> 8.1.1'
+	pod 'SwiftIcons', '~> 2.0.1'
 
 end

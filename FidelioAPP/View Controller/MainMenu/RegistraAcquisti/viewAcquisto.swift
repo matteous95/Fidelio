@@ -11,6 +11,9 @@ import AVFoundation
 
 class viewAcquisto: UIViewController,AVCaptureMetadataOutputObjectsDelegate {
     @IBOutlet weak var btnSwitch: UIButton!
+    @IBOutlet weak var viewCamera: UIView!
+    @IBOutlet weak var viewFooterCamera: UIView!
+    @IBOutlet weak var viewHeaderCamera: UIView!
     
     var frontDevice: AVCaptureDevice?   = AVCaptureDevice.default(.builtInWideAngleCamera, for: AVMediaType.video, position: .front)
     var defaultDevice: AVCaptureDevice? = AVCaptureDevice.default(for: .video)
@@ -46,6 +49,52 @@ class viewAcquisto: UIViewController,AVCaptureMetadataOutputObjectsDelegate {
     }()
     
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.bringSubview(toFront: btnSwitch)
+        view.bringSubview(toFront: viewFooterCamera)
+        captureDevice = AVCaptureDevice.default(for: .video)
+        // Check if captureDevice returns a value and unwrap it
+        if let captureDevice = captureDevice {
+            
+            do {
+                let input = try AVCaptureDeviceInput(device: captureDevice)
+                
+                //let captureSession = AVCaptureSession()
+                captureSession.addInput(input)
+                
+                let captureMetadataOutput = AVCaptureMetadataOutput()
+                captureSession.addOutput(captureMetadataOutput)
+                captureMetadataOutput.setMetadataObjectsDelegate(self, queue: .main)
+                captureMetadataOutput.metadataObjectTypes = [.code128, .qr, .ean13,  .ean8, .code39] //AVMetadataObject.ObjectType
+                captureSession.startRunning()
+                videoPreviewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
+                videoPreviewLayer?.videoGravity = .resizeAspectFill
+                videoPreviewLayer?.frame = viewCamera.layer.bounds
+                viewCamera.layer.addSublayer(videoPreviewLayer!)
+                
+
+                
+                let effettoSfocatura = UIBlurEffect(style: UIBlurEffectStyle.dark)
+                let vistaSfocata = UIVisualEffectView(effect: effettoSfocatura)
+                vistaSfocata.frame = viewFooterCamera.bounds
+                viewFooterCamera.addSubview(vistaSfocata)
+
+
+                
+                
+            } catch {
+                print("Error Device Input")
+            }
+            
+         
+
+            
+        }
+        
+        
+    }
+    
     @IBAction func switchCamera(_ sender: Any) {
         switchDeviceInput()
     }
@@ -69,41 +118,7 @@ class viewAcquisto: UIViewController,AVCaptureMetadataOutputObjectsDelegate {
     
 
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.bringSubview(toFront: btnSwitch)
-        captureDevice = AVCaptureDevice.default(for: .video)
-        // Check if captureDevice returns a value and unwrap it
-        if let captureDevice = captureDevice {
-            
-            do {
-                let input = try AVCaptureDeviceInput(device: captureDevice)
-                
-                //let captureSession = AVCaptureSession()
-                captureSession.addInput(input)
-                
-                let captureMetadataOutput = AVCaptureMetadataOutput()
-                captureSession.addOutput(captureMetadataOutput)
-                
-                captureMetadataOutput.setMetadataObjectsDelegate(self, queue: .main)
-                captureMetadataOutput.metadataObjectTypes = [.code128, .qr, .ean13,  .ean8, .code39] //AVMetadataObject.ObjectType
-                
-                captureSession.startRunning()
-                
-                videoPreviewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
-                videoPreviewLayer?.videoGravity = .resizeAspectFill
-                videoPreviewLayer?.frame = view.layer.bounds
-                view.layer.addSublayer(videoPreviewLayer!)
-                
-            } catch {
-                print("Error Device Input")
-            }
-            
-            
-        }
-        
-        
-    }
+    
     
     
     func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
