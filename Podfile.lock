@@ -1,0 +1,20 @@
+PODS:
+  - QRCodeReader.swift (8.1.1)
+  - SwiftIcons (2.0.1)
+
+DEPENDENCIES:
+  - QRCodeReader.swift (~> 8.1.1)
+  - SwiftIcons (~> 2.0.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - QRCodeReader.swift
+    - SwiftIcons
+
+SPEC CHECKSUMS:
+  QRCodeReader.swift: b164a681887de276d405ff02bce854d82cd6360b
+  SwiftIcons: e475a56ae2c2da40672dbf16061ca5dd5cee7dbb
+
+PODFILE CHECKSUM: dbd28191e85467f669f6858f126a39d3f729311f
+
+COCOAPODS: 1.5.0
