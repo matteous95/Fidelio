@@ -16,6 +16,7 @@ struct Acquisto: Decodable {
     var created_at: Date?
     var updated_at: Date?
     var user_id: String?
+    var cliente: Cliente?
 }
 
 
@@ -28,6 +29,7 @@ extension Acquisto {
         case created_at = "created_at"
         case updated_at = "updated_at"
         case user_id = "user_id"
+        case cliente = "cliente"
 
     }
     
@@ -47,6 +49,7 @@ extension Acquisto {
         let dataUpdate = dateFormatterGet.date(from: try keyedContainer.decode(String.self, forKey: .updated_at))
         updated_at = dataUpdate
         user_id = try keyedContainer.decode(String.self, forKey: .user_id)
+        cliente = try keyedContainer.decodeIfPresent(Cliente.self, forKey: .cliente)
     }
     
 }

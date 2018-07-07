@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftIcons
 
 class viewClienteAcquistiController: UITableViewController {
     private let client = ClienteAcquistiClient()
@@ -33,9 +34,7 @@ class viewClienteAcquistiController: UITableViewController {
                 guard let acquistiResults = acquistiFeedResult else {
                     return
                 }
-                print(acquistiResults.results?.count as Any)
                 self?.Acquisti = acquistiResults.results?.sorted(by: {$0.data_acquisto! > $1.data_acquisto!})
-                print(self?.Acquisti as Any)
                 self?.tableView.reloadData()
                 
             case .failure(let error):
@@ -61,12 +60,14 @@ class viewClienteAcquistiController: UITableViewController {
             if Acquisti == nil {
                 return cell
             }
+        
             let dateFormatterGet = DateFormatter()
             dateFormatterGet.dateFormat = "dd-MM-yyyy HH:mm:ss"
             let dataAcquisto = dateFormatterGet.string(from: (Acquisti?[indexPath.row].data_acquisto!)!)
             cell.lblData.text = dataAcquisto
-            cell.imgIcon.image = UIImage.init(icon: .fontAwesome(.creditCard), size: CGSize(width: 24, height: 24), textColor: .darkGray)
-            cell.lblImporto.text =  String(format: "Tip Amount: $%.02f", (Acquisti?[indexPath.row].importo)!)
+            cell.imgIcon.image = UIImage.init(icon: .fontAwesome(.creditCard), size: CGSize(width: 24, height: 24), textColor: AppColor.colorSelection())
+        
+            cell.lblImporto.text =  String(format: "%.2f", (Acquisti?[indexPath.row].importo)!) + " €"
 
             return cell
         }

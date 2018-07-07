@@ -18,10 +18,6 @@ class ViewLoginController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-        if let strToken = LocalToken.getLocalToken() {
-            print(strToken)
-        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -34,7 +30,6 @@ class ViewLoginController: UIViewController {
         if txtEmail.text == nil || txtEmail.text == "" || txtPassword.text == nil || txtPassword.text == "" {
             print("Inserire le credenziali prima di effettuare l'accesso!")
             effettuaLogin()
-            print("1")
         }else{
             effettuaLogin()
         }
@@ -52,15 +47,10 @@ class ViewLoginController: UIViewController {
                 guard let loginResults = loginFeedResult else {
                     return
                 }
-                print(loginResults.token!)
-                LocalToken.setLocalToken(token: loginResults.token!)
-                if let strToken = LocalToken.getLocalToken(){
-                    print(strToken)
-                }
+                LocalStorage.setLocalToken(token: loginResults.token!)
                 self!.performSegue(withIdentifier: "daLogin", sender: nil)
                 
                 
-            //print(loginResults.first?.token)
             case .failure(let error):
                 print("the error \(error)")
                 print("Accesso negato")

@@ -8,6 +8,7 @@
 
 import Foundation
 
+//MATTEO: struttura per un singolo cliente
  struct Cliente: Decodable {
     var id: Int?
     var user_id: String?
@@ -51,25 +52,25 @@ extension Cliente {
     
 
     
-    
+    //MATTEO: init decoding della struttura di un cliente dato un decoder(json)
     init(from decoder: Decoder) throws {
         let dateFormatterGet = DateFormatter()
         dateFormatterGet.dateFormat = "yyyy-MM-dd HH:mm:ss"
         
         let keyedContainer = try decoder.container(keyedBy: Keys.self)
-        id = try keyedContainer.decode(Int.self, forKey: .id)
-        user_id = try keyedContainer.decode(String.self, forKey: .user_id)
-        nome = try keyedContainer.decode(String.self, forKey: .nome)
-        cognome = try keyedContainer.decode(String.self, forKey: .cognome)
-        c_fiscale = try keyedContainer.decode(String.self, forKey: .c_fiscale)
+        id = try?  keyedContainer.decode(Int.self, forKey: .id)
+        user_id = try?  keyedContainer.decode(String.self, forKey: .user_id)
+        nome = try?  keyedContainer.decode(String.self, forKey: .nome)
+        cognome = try?  keyedContainer.decode(String.self, forKey: .cognome)
+        c_fiscale = try?  keyedContainer.decode(String.self, forKey: .c_fiscale)
         let dataNascita = dateFormatterGet.date(from: try keyedContainer.decode(String.self, forKey: .data_nascita))
         data_nascita = dataNascita
-        indirizzo = try keyedContainer.decode(String.self, forKey: .indirizzo)
-        citta = try keyedContainer.decode(String.self, forKey: .citta)
-        provincia = try keyedContainer.decode(String.self, forKey: .provincia)
-        cap = try keyedContainer.decode(String.self, forKey: .cap)
-        cellulare = try keyedContainer.decode(String.self, forKey: .cellulare)
-        email = try keyedContainer.decode(String.self, forKey: .email)
+        indirizzo = try?  keyedContainer.decode(String.self, forKey: .indirizzo)
+        citta = try?  keyedContainer.decode(String.self, forKey: .citta)
+        provincia = try?  keyedContainer.decode(String.self, forKey: .provincia)
+        cap = try?  keyedContainer.decode(String.self, forKey: .cap)
+        cellulare = try?  keyedContainer.decode(String.self, forKey: .cellulare)
+        email = try?  keyedContainer.decode(String.self, forKey: .email)
         let dataCreate = dateFormatterGet.date(from: try keyedContainer.decode(String.self, forKey: .created_at))
         created_at = dataCreate
         let dataUpdate = dateFormatterGet.date(from: try keyedContainer.decode(String.self, forKey: .updated_at))

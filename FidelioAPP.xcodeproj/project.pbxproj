@@ -16,13 +16,14 @@
 		954892AE20B75D0800E81D6E /* ClientiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954892AD20B75D0800E81D6E /* ClientiClient.swift */; };
 		954892B020B75D1400E81D6E /* Clienti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954892AF20B75D1400E81D6E /* Clienti.swift */; };
 		95491E3620BB4EDD00C87D4A /* cellDettaglioClienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95491E3520BB4EDD00C87D4A /* cellDettaglioClienteController.swift */; };
+		956E6D0720D3092A0027F22A /* logo-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 956E6D0620D3092A0027F22A /* logo-green.png */; };
 		95785B6C2097777A005CA31C /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95785B6B2097777A005CA31C /* CameraController.swift */; };
-		957957C220C2EE0100DBFF14 /* cellStoricoAcquistoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957957C120C2EE0100DBFF14 /* cellStoricoAcquistoController.swift */; };
 		957957C420C2EF7000DBFF14 /* ClienteAcquistiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957957C320C2EF7000DBFF14 /* ClienteAcquistiClient.swift */; };
 		957957C920C2F10800DBFF14 /* viewClienteAcquistiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957957C820C2F10800DBFF14 /* viewClienteAcquistiController.swift */; };
 		957957CD20C2F18600DBFF14 /* cellClienteAcquistiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957957CC20C2F18600DBFF14 /* cellClienteAcquistiController.swift */; };
 		957D9ECC2094DAA10009F7D0 /* viewClientiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D9ECB2094DAA10009F7D0 /* viewClientiController.swift */; };
 		957D9ECF2094E0D50009F7D0 /* Cliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D9ECE2094E0D50009F7D0 /* Cliente.swift */; };
+		95888A1C20D52FB9003C65E7 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95888A1B20D52FB9003C65E7 /* AppColor.swift */; };
 		9588EBE6209F225D004024D7 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9588EBE5209F225D004024D7 /* Login.swift */; };
 		958FA8062092430800F91F0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958FA8052092430800F91F0D /* AppDelegate.swift */; };
 		958FA8082092430800F91F0D /* ViewLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958FA8072092430800F91F0D /* ViewLoginController.swift */; };
@@ -30,11 +31,14 @@
 		958FA80D2092430800F91F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958FA80C2092430800F91F0D /* Assets.xcassets */; };
 		958FA8102092430800F91F0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958FA80E2092430800F91F0D /* LaunchScreen.storyboard */; };
 		958FA81C20926D8500F91F0D /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958FA81B20926D8500F91F0D /* MainMenuController.swift */; };
+		9591108920E7AE6A000B1B44 /* ParametriUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591108820E7AE6A000B1B44 /* ParametriUrl.swift */; };
+		9597163F20DAF83D001EE536 /* qrCodeTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 9597163E20DAF83D001EE536 /* qrCodeTest.png */; };
+		9597164120DAF8F2001EE536 /* cellQRCodeClienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9597164020DAF8F2001EE536 /* cellQRCodeClienteController.swift */; };
 		959860AE20BAC81900B77638 /* cellClientiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959860AD20BAC81900B77638 /* cellClientiController.swift */; };
 		9598E0AD20BDD09F00F46ED5 /* viewDettaglioClienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9598E0AC20BDD09F00F46ED5 /* viewDettaglioClienteController.swift */; };
+		9599DB0920DE5C1600981415 /* cellStoricoAcquisti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599DB0820DE5C1600981415 /* cellStoricoAcquisti.swift */; };
 		95A23C4820C1C62200FEAF4D /* Acquisti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A23C4720C1C62200FEAF4D /* Acquisti.swift */; };
 		95A23C4A20C1C65C00FEAF4D /* Acquisto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A23C4920C1C65C00FEAF4D /* Acquisto.swift */; };
-		95A23C4C20C1CA9300FEAF4D /* AcquistoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A23C4B20C1CA9300FEAF4D /* AcquistoClient.swift */; };
 		95A23C4E20C1CAA100FEAF4D /* AcquistiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A23C4D20C1CAA100FEAF4D /* AcquistiClient.swift */; };
 		95B45D3520C1CE8600809321 /* viewStoricoAcquistiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B45D3420C1CE8600809321 /* viewStoricoAcquistiController.swift */; };
 		95B45D3720C1D1A600809321 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B45D3620C1D1A600809321 /* LocalStorage.swift */; };
@@ -53,13 +57,14 @@
 		954892AD20B75D0800E81D6E /* ClientiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientiClient.swift; sourceTree = "<group>"; };
 		954892AF20B75D1400E81D6E /* Clienti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clienti.swift; sourceTree = "<group>"; };
 		95491E3520BB4EDD00C87D4A /* cellDettaglioClienteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellDettaglioClienteController.swift; sourceTree = "<group>"; };
+		956E6D0620D3092A0027F22A /* logo-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-green.png"; sourceTree = "<group>"; };
 		95785B6B2097777A005CA31C /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
-		957957C120C2EE0100DBFF14 /* cellStoricoAcquistoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellStoricoAcquistoController.swift; sourceTree = "<group>"; };
 		957957C320C2EF7000DBFF14 /* ClienteAcquistiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClienteAcquistiClient.swift; sourceTree = "<group>"; };
 		957957C820C2F10800DBFF14 /* viewClienteAcquistiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewClienteAcquistiController.swift; sourceTree = "<group>"; };
 		957957CC20C2F18600DBFF14 /* cellClienteAcquistiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellClienteAcquistiController.swift; sourceTree = "<group>"; };
 		957D9ECB2094DAA10009F7D0 /* viewClientiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewClientiController.swift; sourceTree = "<group>"; };
 		957D9ECE2094E0D50009F7D0 /* Cliente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cliente.swift; sourceTree = "<group>"; };
+		95888A1B20D52FB9003C65E7 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		9588EBE5209F225D004024D7 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		958FA8022092430800F91F0D /* FidelioAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FidelioAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		958FA8052092430800F91F0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,11 +74,14 @@
 		958FA80F2092430800F91F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		958FA8112092430800F91F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		958FA81B20926D8500F91F0D /* MainMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
+		9591108820E7AE6A000B1B44 /* ParametriUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametriUrl.swift; sourceTree = "<group>"; };
+		9597163E20DAF83D001EE536 /* qrCodeTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrCodeTest.png; sourceTree = "<group>"; };
+		9597164020DAF8F2001EE536 /* cellQRCodeClienteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellQRCodeClienteController.swift; sourceTree = "<group>"; };
 		959860AD20BAC81900B77638 /* cellClientiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellClientiController.swift; sourceTree = "<group>"; };
 		9598E0AC20BDD09F00F46ED5 /* viewDettaglioClienteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewDettaglioClienteController.swift; sourceTree = "<group>"; };
+		9599DB0820DE5C1600981415 /* cellStoricoAcquisti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellStoricoAcquisti.swift; sourceTree = "<group>"; };
 		95A23C4720C1C62200FEAF4D /* Acquisti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acquisti.swift; sourceTree = "<group>"; };
 		95A23C4920C1C65C00FEAF4D /* Acquisto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acquisto.swift; sourceTree = "<group>"; };
-		95A23C4B20C1CA9300FEAF4D /* AcquistoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcquistoClient.swift; sourceTree = "<group>"; };
 		95A23C4D20C1CAA100FEAF4D /* AcquistiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcquistiClient.swift; sourceTree = "<group>"; };
 		95B45D3420C1CE8600809321 /* viewStoricoAcquistiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewStoricoAcquistiController.swift; sourceTree = "<group>"; };
 		95B45D3620C1D1A600809321 /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
@@ -108,6 +116,7 @@
 				9538B7C020B1E6F2003C2725 /* GenericAPIClient.swift */,
 				9538B7C220B1E6FF003C2725 /* Result.swift */,
 				95B45D3620C1D1A600809321 /* LocalStorage.swift */,
+				9591108820E7AE6A000B1B44 /* ParametriUrl.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -118,19 +127,6 @@
 				95785B6B2097777A005CA31C /* CameraController.swift */,
 			);
 			path = Camera;
-			sourceTree = "<group>";
-		};
-		954892AC20B75CE800E81D6E /* ModelsClient */ = {
-			isa = PBXGroup;
-			children = (
-				9538B7C420B1E70D003C2725 /* LoginClient.swift */,
-				9536DEEC20B8A67300DC97ED /* ClienteClient.swift */,
-				954892AD20B75D0800E81D6E /* ClientiClient.swift */,
-				957957C320C2EF7000DBFF14 /* ClienteAcquistiClient.swift */,
-				95A23C4B20C1CA9300FEAF4D /* AcquistoClient.swift */,
-				95A23C4D20C1CAA100FEAF4D /* AcquistiClient.swift */,
-			);
-			path = ModelsClient;
 			sourceTree = "<group>";
 		};
 		957957C520C2EFC000DBFF14 /* RegistraAcquisti */ = {
@@ -145,7 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				95B45D3420C1CE8600809321 /* viewStoricoAcquistiController.swift */,
-				957957C120C2EE0100DBFF14 /* cellStoricoAcquistoController.swift */,
+				9599DB0820DE5C1600981415 /* cellStoricoAcquisti.swift */,
 			);
 			path = StoricoAcquisti;
 			sourceTree = "<group>";
@@ -160,11 +156,9 @@
 		957D9ECD2094E0B10009F7D0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9588EBE5209F225D004024D7 /* Login.swift */,
-				957D9ECE2094E0D50009F7D0 /* Cliente.swift */,
-				954892AF20B75D1400E81D6E /* Clienti.swift */,
-				95A23C4920C1C65C00FEAF4D /* Acquisto.swift */,
-				95A23C4720C1C62200FEAF4D /* Acquisti.swift */,
+				9599DB0520DE562E00981415 /* Acquisti */,
+				9599DB0420DE562100981415 /* Clienti */,
+				9599DB0320DE561800981415 /* Login */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -172,10 +166,19 @@
 		957D9ED02094E4220009F7D0 /* Function */ = {
 			isa = PBXGroup;
 			children = (
+				95888A1A20D52F9B003C65E7 /* Grafica */,
 				9547524220A893A6006C272E /* Camera */,
 				9538B7BD20B1E6C3003C2725 /* Networking */,
 			);
 			path = Function;
+			sourceTree = "<group>";
+		};
+		95888A1A20D52F9B003C65E7 /* Grafica */ = {
+			isa = PBXGroup;
+			children = (
+				95888A1B20D52FB9003C65E7 /* AppColor.swift */,
+			);
+			path = Grafica;
 			sourceTree = "<group>";
 		};
 		958FA7F92092430800F91F0D = {
@@ -199,13 +202,14 @@
 		958FA8042092430800F91F0D /* FidelioAPP */ = {
 			isa = PBXGroup;
 			children = (
+				9597163E20DAF83D001EE536 /* qrCodeTest.png */,
+				956E6D0620D3092A0027F22A /* logo-green.png */,
 				958FA8112092430800F91F0D /* Info.plist */,
 				958FA80C2092430800F91F0D /* Assets.xcassets */,
 				958FA80E2092430800F91F0D /* LaunchScreen.storyboard */,
 				958FA8092092430800F91F0D /* Main.storyboard */,
 				958FA8052092430800F91F0D /* AppDelegate.swift */,
 				957D9ED02094E4220009F7D0 /* Function */,
-				954892AC20B75CE800E81D6E /* ModelsClient */,
 				957D9ECD2094E0B10009F7D0 /* Models */,
 				958FA81720926A1000F91F0D /* View Controller */,
 			);
@@ -246,12 +250,60 @@
 			children = (
 				957D9ECB2094DAA10009F7D0 /* viewClientiController.swift */,
 				959860AD20BAC81900B77638 /* cellClientiController.swift */,
+				9599DB0120DE55B000981415 /* Dettaglio Cliente */,
+			);
+			path = Clienti;
+			sourceTree = "<group>";
+		};
+		9599DB0120DE55B000981415 /* Dettaglio Cliente */ = {
+			isa = PBXGroup;
+			children = (
 				9598E0AC20BDD09F00F46ED5 /* viewDettaglioClienteController.swift */,
+				9597164020DAF8F2001EE536 /* cellQRCodeClienteController.swift */,
 				95491E3520BB4EDD00C87D4A /* cellDettaglioClienteController.swift */,
+				9599DB0220DE55D200981415 /* Acquisti Cliente */,
+			);
+			path = "Dettaglio Cliente";
+			sourceTree = "<group>";
+		};
+		9599DB0220DE55D200981415 /* Acquisti Cliente */ = {
+			isa = PBXGroup;
+			children = (
 				957957C820C2F10800DBFF14 /* viewClienteAcquistiController.swift */,
 				957957CC20C2F18600DBFF14 /* cellClienteAcquistiController.swift */,
 			);
+			path = "Acquisti Cliente";
+			sourceTree = "<group>";
+		};
+		9599DB0320DE561800981415 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9588EBE5209F225D004024D7 /* Login.swift */,
+				9538B7C420B1E70D003C2725 /* LoginClient.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9599DB0420DE562100981415 /* Clienti */ = {
+			isa = PBXGroup;
+			children = (
+				954892AF20B75D1400E81D6E /* Clienti.swift */,
+				954892AD20B75D0800E81D6E /* ClientiClient.swift */,
+				957D9ECE2094E0D50009F7D0 /* Cliente.swift */,
+				9536DEEC20B8A67300DC97ED /* ClienteClient.swift */,
+			);
 			path = Clienti;
+			sourceTree = "<group>";
+		};
+		9599DB0520DE562E00981415 /* Acquisti */ = {
+			isa = PBXGroup;
+			children = (
+				95A23C4720C1C62200FEAF4D /* Acquisti.swift */,
+				95A23C4920C1C65C00FEAF4D /* Acquisto.swift */,
+				95A23C4D20C1CAA100FEAF4D /* AcquistiClient.swift */,
+				957957C320C2EF7000DBFF14 /* ClienteAcquistiClient.swift */,
+			);
+			path = Acquisti;
 			sourceTree = "<group>";
 		};
 		B36D95AA3205660EE0380D58 /* Frameworks */ = {
@@ -323,6 +375,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9597163F20DAF83D001EE536 /* qrCodeTest.png in Resources */,
+				956E6D0720D3092A0027F22A /* logo-green.png in Resources */,
 				958FA8102092430800F91F0D /* LaunchScreen.storyboard in Resources */,
 				958FA80D2092430800F91F0D /* Assets.xcassets in Resources */,
 				958FA80B2092430800F91F0D /* Main.storyboard in Resources */,
@@ -382,23 +436,25 @@
 				95A23C4E20C1CAA100FEAF4D /* AcquistiClient.swift in Sources */,
 				95B45D3520C1CE8600809321 /* viewStoricoAcquistiController.swift in Sources */,
 				954892AE20B75D0800E81D6E /* ClientiClient.swift in Sources */,
-				95A23C4C20C1CA9300FEAF4D /* AcquistoClient.swift in Sources */,
 				9538B7C520B1E70D003C2725 /* LoginClient.swift in Sources */,
 				959860AE20BAC81900B77638 /* cellClientiController.swift in Sources */,
 				9598E0AD20BDD09F00F46ED5 /* viewDettaglioClienteController.swift in Sources */,
 				95A23C4820C1C62200FEAF4D /* Acquisti.swift in Sources */,
+				9591108920E7AE6A000B1B44 /* ParametriUrl.swift in Sources */,
 				958FA8082092430800F91F0D /* ViewLoginController.swift in Sources */,
 				957D9ECC2094DAA10009F7D0 /* viewClientiController.swift in Sources */,
 				958FA8062092430800F91F0D /* AppDelegate.swift in Sources */,
 				9538B7C320B1E6FF003C2725 /* Result.swift in Sources */,
-				957957C220C2EE0100DBFF14 /* cellStoricoAcquistoController.swift in Sources */,
 				95D331AD2095D5A30036178A /* viewAcquisto.swift in Sources */,
 				958FA81C20926D8500F91F0D /* MainMenuController.swift in Sources */,
 				957957C420C2EF7000DBFF14 /* ClienteAcquistiClient.swift in Sources */,
+				95888A1C20D52FB9003C65E7 /* AppColor.swift in Sources */,
 				9536DEED20B8A67300DC97ED /* ClienteClient.swift in Sources */,
 				9588EBE6209F225D004024D7 /* Login.swift in Sources */,
 				954892B020B75D1400E81D6E /* Clienti.swift in Sources */,
+				9599DB0920DE5C1600981415 /* cellStoricoAcquisti.swift in Sources */,
 				95785B6C2097777A005CA31C /* CameraController.swift in Sources */,
+				9597164120DAF8F2001EE536 /* cellQRCodeClienteController.swift in Sources */,
 				95491E3620BB4EDD00C87D4A /* cellDettaglioClienteController.swift in Sources */,
 				957957C920C2F10800DBFF14 /* viewClienteAcquistiController.swift in Sources */,
 				9538B7C120B1E6F2003C2725 /* GenericAPIClient.swift in Sources */,

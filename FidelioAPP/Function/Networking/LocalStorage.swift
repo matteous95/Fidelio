@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class LocalToken {
+public class LocalStorage{
     //MATTEO: scrivo il token nella local storage
     static func setLocalToken (token: String) {
         let defaults = UserDefaults.standard
@@ -19,7 +19,6 @@ public class LocalToken {
     static func getLocalToken () -> String? {
         let defaults = UserDefaults.standard
         if let strToken = defaults.string(forKey: "token") {
-            print(strToken)
             return strToken
         }
         return nil

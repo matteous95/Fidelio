@@ -21,9 +21,19 @@ class ClienteAcquistiClient: APIClient {
     }
     
     //in the signature of the function in the success case we define the Class type thats is the generic one in the API
-    func getFeed(paramID: [String] ,from loginFeedType: CallFeed, completion: @escaping (Result<Acquisti?, APIError>) -> Void) {
+    func getFeed(page: Int? = nil, paramID: [String],from loginFeedType: CallFeed, completion: @escaping (Result<Acquisti?, APIError>) -> Void) {
         let endpoint = loginFeedType
-        let request = endpoint.getRequestGet(withToken: true,paramUrl: paramID)
+        
+        //MATTEO: imposto i parametri necessari alla query dell'url --> TOKEN
+        var queryItems: [URLQueryItem]?
+        if page == nil {
+             queryItems = [URLQueryItem(name: "token", value: LocalStorage.getLocalToken())]
+        }else{
+             queryItems = [URLQueryItem(name: "token", value: LocalStorage.getLocalToken()),URLQueryItem(name: "page", value: String(page!))]
+        }
+        
+        //MATTEO: mi preparo la request da fare al ws
+        let request = endpoint.getRequestGet(parametriQUERY: queryItems, parametriURL: paramID)
         
         fetch(with: request, decode: { json -> Acquisti? in
             guard let acquistiResult = json as? Acquisti else {

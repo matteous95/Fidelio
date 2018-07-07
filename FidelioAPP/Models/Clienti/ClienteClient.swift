@@ -23,8 +23,10 @@ class ClienteClient: APIClient {
     //in the signature of the function in the success case we define the Class type thats is the generic one in the API
     func getFeed(paramID: [String] ,from loginFeedType: CallFeed, completion: @escaping (Result<Cliente?, APIError>) -> Void) {
         let endpoint = loginFeedType
-        //let request = endpoint.request
-        let request = endpoint.getRequestGet(withToken: true, paramUrl: paramID)
+        //MATTEO: imposto i parametri necessari alla query dell'url --> TOKEN
+        let queryItems = [URLQueryItem(name: "token", value: LocalStorage.getLocalToken())]
+        //MATTEO: mi preparo la request da fare al ws
+        let request = endpoint.getRequestGet(parametriQUERY: queryItems, parametriURL: paramID)
         
         fetch(with: request, decode: { json -> Cliente? in
             guard let clientiResult = json as? Cliente else {

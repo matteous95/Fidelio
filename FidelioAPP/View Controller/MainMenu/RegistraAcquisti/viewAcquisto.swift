@@ -14,7 +14,8 @@ class viewAcquisto: UIViewController,AVCaptureMetadataOutputObjectsDelegate {
     @IBOutlet weak var viewCamera: UIView!
     @IBOutlet weak var viewFooterCamera: UIView!
     @IBOutlet weak var viewHeaderCamera: UIView!
-    
+    @IBOutlet weak var imgQRCode: UIImageView!
+    @IBOutlet weak var lblRegistraAcq: UILabel!
     var frontDevice: AVCaptureDevice?   = AVCaptureDevice.default(.builtInWideAngleCamera, for: AVMediaType.video, position: .front)
     var defaultDevice: AVCaptureDevice? = AVCaptureDevice.default(for: .video)
     
@@ -41,7 +42,7 @@ class viewAcquisto: UIViewController,AVCaptureMetadataOutputObjectsDelegate {
     var videoPreviewLayer:AVCaptureVideoPreviewLayer?
     let codeFrame:UIView = {
         let codeFrame = UIView()
-        codeFrame.layer.borderColor = UIColor.green.cgColor
+        codeFrame.layer.borderColor = AppColor.colorSelection().cgColor
         codeFrame.layer.borderWidth = 2
         codeFrame.frame = CGRect.zero
         codeFrame.translatesAutoresizingMaskIntoConstraints = false
@@ -53,14 +54,16 @@ class viewAcquisto: UIViewController,AVCaptureMetadataOutputObjectsDelegate {
         super.viewDidLoad()
         view.bringSubview(toFront: btnSwitch)
         view.bringSubview(toFront: viewFooterCamera)
+        btnSwitch.setImage(UIImage.init(icon: .fontAwesome(.undo), size: CGSize(width: 35, height: 35), textColor: .white), for: .normal)
+        btnSwitch.setTitle("", for: .normal)
+        lblRegistraAcq.text = ""
+        imgQRCode.image = UIImage.init(icon: .fontAwesome(.qrcode), size: CGSize(width: 48, height: 48), textColor: .white)
         captureDevice = AVCaptureDevice.default(for: .video)
         // Check if captureDevice returns a value and unwrap it
         if let captureDevice = captureDevice {
             
             do {
                 let input = try AVCaptureDeviceInput(device: captureDevice)
-                
-                //let captureSession = AVCaptureSession()
                 captureSession.addInput(input)
                 
                 let captureMetadataOutput = AVCaptureMetadataOutput()
@@ -72,16 +75,7 @@ class viewAcquisto: UIViewController,AVCaptureMetadataOutputObjectsDelegate {
                 videoPreviewLayer?.videoGravity = .resizeAspectFill
                 videoPreviewLayer?.frame = viewCamera.layer.bounds
                 viewCamera.layer.addSublayer(videoPreviewLayer!)
-                
-
-                
-                let effettoSfocatura = UIBlurEffect(style: UIBlurEffectStyle.dark)
-                let vistaSfocata = UIVisualEffectView(effect: effettoSfocatura)
-                vistaSfocata.frame = viewFooterCamera.bounds
-                viewFooterCamera.addSubview(vistaSfocata)
-
-
-                
+    
                 
             } catch {
                 print("Error Device Input")

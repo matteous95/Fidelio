@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		099C597C70BBD4125AB08EF365AE5674 /* Linearicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC13B39103F1354E02E0D94BF6488 /* Linearicons.ttf */; };
 		0B35610B93D8A5687F30B7F659CB40D0 /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B2F2C0C9051C9FE0CCC088FF21B948 /* QRCodeReaderViewControllerBuilder.swift */; };
 		0EBA6DB6565E96D5F2FC4ADBCA1263BC /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95661F24587539409979C4ABDA9E95AF /* QRCodeReaderViewContainer.swift */; };
-		184550B5C6E45BAB694F8960C48C45D0 /* OpenIconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE9D34E01E157FC2E19333B8D4F651 /* OpenIconic.ttf */; };
 		1CAA6736721E4BFF35ED166B60C8AEE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */; };
 		206D9556460E52F7FCCCEB1EA03403E6 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1FB0C4DB2F29353806117D36BFA074 /* QRCodeReader.swift */; };
 		29FD268BFE7E29E3D78643B807E2DF08 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67060354942CBA2BCEE599A191154DA1 /* QRCodeReaderResult.swift */; };
@@ -31,11 +30,12 @@
 		8DF026F5447ACF94E60AC5217FBDF67C /* SwiftIcons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F760134048F07CE300B3A0363983AD10 /* SwiftIcons.bundle */; };
 		8E1ED46BA9C6C2E50A4095264814BF9C /* Pods-FidelioAPP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F4C41A2A7F48D140376074E1DEDB06 /* Pods-FidelioAPP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		933AB8965608254D31DF584916286389 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D000A41A9285515176A7533A70F8F /* ReaderOverlayView.swift */; };
+		9594FB4A20CC4C8D001FCF0B /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9594FB4920CC4C24001FCF0B /* FontAwesome.ttf */; };
+		9594FB4B20CC4C91001FCF0B /* OpenIconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9594FB4820CC4C15001FCF0B /* OpenIconic.ttf */; };
 		9E9C28B6E20D3592899FD455251867EB /* Stateface.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B07D3FEDBE8640D78ABF72EFC861FF5 /* Stateface.ttf */; };
 		A0ECF5406200D834EC97E32210A03ADC /* Emoji.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C518F57399570CA8286CE4B8744C80A /* Emoji.ttf */; };
 		ABC18650D9A0950CB4B0B81E45E45F1E /* WeatherIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCF26C4B27F3B7232CECADFD2FEFDCED /* WeatherIcons.ttf */; };
 		BB681FBF0AA65DCBEFCB7397DC28E652 /* Icofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1012BCCEEBEACF504A6AA87B2376865 /* Icofont.ttf */; };
-		CC2B8EF55090F230BCA877124F382693 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E63D442D54AB1D89A80850981658EBE /* FontAwesome.ttf */; };
 		D008DB587395A4B65205B9679425970E /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7BBA56380ABBA1FA868468225BD4EA /* QRCodeReader.swift-dummy.m */; };
 		D255E4E2CBD6D88CA5F7AABE03C26079 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B429B743FE9FF1A88D720CBEFD66651 /* MaterialIcons.ttf */; };
 		DB98CA5CD1E0AB72F503E00EBE025815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */; };
@@ -72,28 +72,28 @@
 		27FE0A5B0A1CACD4149EE38E24018DAD /* SwiftIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIcons.swift; path = Source/SwiftIcons.swift; sourceTree = "<group>"; };
 		2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		2AF2A53399C871A421195B3D68E625E2 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = Sources/ToggleTorchButton.swift; sourceTree = "<group>"; };
-		2E63D442D54AB1D89A80850981658EBE /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = Source/FontAwesome.ttf; sourceTree = "<group>"; };
-		39FF64369818D463A1CFF942195B01D6 /* MapIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = MapIcons.ttf; path = Source/MapIcons.ttf; sourceTree = "<group>"; };
+		39FF64369818D463A1CFF942195B01D6 /* MapIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = MapIcons.ttf; path = Source/MapIcons.ttf; sourceTree = "<group>"; };
 		3A1FB0C4DB2F29353806117D36BFA074 /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = Sources/QRCodeReader.swift; sourceTree = "<group>"; };
-		3B429B743FE9FF1A88D720CBEFD66651 /* MaterialIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = MaterialIcons.ttf; path = Source/MaterialIcons.ttf; sourceTree = "<group>"; };
+		3B429B743FE9FF1A88D720CBEFD66651 /* MaterialIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = MaterialIcons.ttf; path = Source/MaterialIcons.ttf; sourceTree = "<group>"; };
 		4A79EB6A689A8B6C6DB8658BD7A3ED3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B07D3FEDBE8640D78ABF72EFC861FF5 /* Stateface.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Stateface.ttf; path = Source/Stateface.ttf; sourceTree = "<group>"; };
+		4B07D3FEDBE8640D78ABF72EFC861FF5 /* Stateface.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Stateface.ttf; path = Source/Stateface.ttf; sourceTree = "<group>"; };
 		4B1C7DF44897FE826DFFE41AE0161AF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B562E40A82BF9C63DD9BB514AA16B8E /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCodeReader.framework; path = QRCodeReader.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B562E40A82BF9C63DD9BB514AA16B8E /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QRCodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A530F8252AF0FDFC89808F89AB469E /* QRCodeReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = Sources/QRCodeReaderView.swift; sourceTree = "<group>"; };
 		588D000A41A9285515176A7533A70F8F /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = Sources/ReaderOverlayView.swift; sourceTree = "<group>"; };
 		67060354942CBA2BCEE599A191154DA1 /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = Sources/QRCodeReaderResult.swift; sourceTree = "<group>"; };
 		672A4E5076A82827DF58619A2DD5715F /* Pods-FidelioAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FidelioAPP.debug.xcconfig"; sourceTree = "<group>"; };
 		751EDA74CD4CDC5B1A3BD65AE886F39E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76800ACF9DD7E9C8F7A5E1D4804FAB2B /* Pods-FidelioAPP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FidelioAPP-dummy.m"; sourceTree = "<group>"; };
-		77823BBE8AAF1A2C1C67B3F921F43CDC /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = Source/Ionicons.ttf; sourceTree = "<group>"; };
+		77823BBE8AAF1A2C1C67B3F921F43CDC /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Ionicons.ttf; path = Source/Ionicons.ttf; sourceTree = "<group>"; };
 		77D026B031723FDA3A241962B34DA5A1 /* SwiftIcons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftIcons-dummy.m"; sourceTree = "<group>"; };
-		7C518F57399570CA8286CE4B8744C80A /* Emoji.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Emoji.ttf; path = Source/Emoji.ttf; sourceTree = "<group>"; };
-		7CCE9D34E01E157FC2E19333B8D4F651 /* OpenIconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenIconic.ttf; path = Source/OpenIconic.ttf; sourceTree = "<group>"; };
+		7C518F57399570CA8286CE4B8744C80A /* Emoji.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Emoji.ttf; path = Source/Emoji.ttf; sourceTree = "<group>"; };
 		7E7C2A563935007FD55E5A8EB70139BD /* Pods-FidelioAPP-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FidelioAPP-acknowledgements.markdown"; sourceTree = "<group>"; };
 		840966EAD0718963750ABB9F4A6EB218 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95661F24587539409979C4ABDA9E95AF /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = Sources/QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
+		9594FB4820CC4C15001FCF0B /* OpenIconic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = OpenIconic.ttf; path = Source/OpenIconic.ttf; sourceTree = "<group>"; };
+		9594FB4920CC4C24001FCF0B /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = Source/FontAwesome.ttf; sourceTree = "<group>"; };
 		9C7BBA56380ABBA1FA868468225BD4EA /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
 		9CE4A544EEE368B38162CA8FE0BDB397 /* Pods-FidelioAPP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FidelioAPP.modulemap"; sourceTree = "<group>"; };
 		AA000A65EA2618404C8D6A79A946E554 /* SwiftIcons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftIcons.xcconfig; sourceTree = "<group>"; };
@@ -106,18 +106,18 @@
 		BFC10E4AB2798584F78004C597D1653B /* ResourceBundle-SwiftIcons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftIcons-Info.plist"; sourceTree = "<group>"; };
 		C5E33DCB2773CC2C20090137F8F48B0D /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
 		CC9C3EE289460302F6B1AC94A9F7B64E /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = Sources/QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
-		D1E779DF18B127024AB0F24396B099D3 /* SwiftIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftIcons.framework; path = SwiftIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E779DF18B127024AB0F24396B099D3 /* SwiftIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F4C41A2A7F48D140376074E1DEDB06 /* Pods-FidelioAPP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FidelioAPP-umbrella.h"; sourceTree = "<group>"; };
-		D2E59FB0BDB0D9E09490910E88CC4FB0 /* Pods_FidelioAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FidelioAPP.framework; path = "Pods-FidelioAPP.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCF26C4B27F3B7232CECADFD2FEFDCED /* WeatherIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = WeatherIcons.ttf; path = Source/WeatherIcons.ttf; sourceTree = "<group>"; };
-		DD3D8BCB0BD12A8B6CB1DD4E406606F4 /* Dripicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Dripicons.ttf; path = Source/Dripicons.ttf; sourceTree = "<group>"; };
+		D2E59FB0BDB0D9E09490910E88CC4FB0 /* Pods_FidelioAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FidelioAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF26C4B27F3B7232CECADFD2FEFDCED /* WeatherIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = WeatherIcons.ttf; path = Source/WeatherIcons.ttf; sourceTree = "<group>"; };
+		DD3D8BCB0BD12A8B6CB1DD4E406606F4 /* Dripicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Dripicons.ttf; path = Source/Dripicons.ttf; sourceTree = "<group>"; };
 		EB7C13198878025BB0566964B6C43083 /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
 		EE31A8384F14767760C3C6A7AA0B2C8A /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = Sources/QRCodeReaderViewController.swift; sourceTree = "<group>"; };
 		EEC49227BD49F73C90A5658AA55FCA89 /* SwiftIcons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftIcons.modulemap; sourceTree = "<group>"; };
-		F1012BCCEEBEACF504A6AA87B2376865 /* Icofont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Icofont.ttf; path = Source/Icofont.ttf; sourceTree = "<group>"; };
+		F1012BCCEEBEACF504A6AA87B2376865 /* Icofont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Icofont.ttf; path = Source/Icofont.ttf; sourceTree = "<group>"; };
 		F35E86367F49EDCA5F1C0D4B36C05F00 /* SwiftIcons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftIcons-prefix.pch"; sourceTree = "<group>"; };
-		F760134048F07CE300B3A0363983AD10 /* SwiftIcons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftIcons.bundle; path = "SwiftIcons-SwiftIcons.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA0CC13B39103F1354E02E0D94BF6488 /* Linearicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Linearicons.ttf; path = Source/Linearicons.ttf; sourceTree = "<group>"; };
+		F760134048F07CE300B3A0363983AD10 /* SwiftIcons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftIcons.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0CC13B39103F1354E02E0D94BF6488 /* Linearicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Linearicons.ttf; path = Source/Linearicons.ttf; sourceTree = "<group>"; };
 		FAB52B85CED8AA99D0DC4A63BAECBCBB /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = Sources/SwitchCameraButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -209,7 +209,6 @@
 				2AF2A53399C871A421195B3D68E625E2 /* ToggleTorchButton.swift */,
 				B0C383569415B6D0C035416612756E8E /* Support Files */,
 			);
-			name = QRCodeReader.swift;
 			path = QRCodeReader.swift;
 			sourceTree = "<group>";
 		};
@@ -220,7 +219,6 @@
 				F2985384007F60FCDF64420814A99DB4 /* Resources */,
 				D78818B658175F21315A9465CED32205 /* Support Files */,
 			);
-			name = SwiftIcons;
 			path = SwiftIcons;
 			sourceTree = "<group>";
 		};
@@ -295,13 +293,13 @@
 			children = (
 				DD3D8BCB0BD12A8B6CB1DD4E406606F4 /* Dripicons.ttf */,
 				7C518F57399570CA8286CE4B8744C80A /* Emoji.ttf */,
-				2E63D442D54AB1D89A80850981658EBE /* FontAwesome.ttf */,
 				F1012BCCEEBEACF504A6AA87B2376865 /* Icofont.ttf */,
 				77823BBE8AAF1A2C1C67B3F921F43CDC /* Ionicons.ttf */,
+				9594FB4920CC4C24001FCF0B /* FontAwesome.ttf */,
 				FA0CC13B39103F1354E02E0D94BF6488 /* Linearicons.ttf */,
 				39FF64369818D463A1CFF942195B01D6 /* MapIcons.ttf */,
 				3B429B743FE9FF1A88D720CBEFD66651 /* MaterialIcons.ttf */,
-				7CCE9D34E01E157FC2E19333B8D4F651 /* OpenIconic.ttf */,
+				9594FB4820CC4C15001FCF0B /* OpenIconic.ttf */,
 				4B07D3FEDBE8640D78ABF72EFC861FF5 /* Stateface.ttf */,
 				DCF26C4B27F3B7232CECADFD2FEFDCED /* WeatherIcons.ttf */,
 			);
@@ -445,14 +443,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A31478B49B3EC4F4173C0AA6022AC87 /* Dripicons.ttf in Resources */,
+				9594FB4A20CC4C8D001FCF0B /* FontAwesome.ttf in Resources */,
 				A0ECF5406200D834EC97E32210A03ADC /* Emoji.ttf in Resources */,
-				CC2B8EF55090F230BCA877124F382693 /* FontAwesome.ttf in Resources */,
 				BB681FBF0AA65DCBEFCB7397DC28E652 /* Icofont.ttf in Resources */,
 				604684E483827F6D2492822B0BEACD7A /* Ionicons.ttf in Resources */,
 				099C597C70BBD4125AB08EF365AE5674 /* Linearicons.ttf in Resources */,
 				84F3E8B39737E657BFCA44A8FA8DE26E /* MapIcons.ttf in Resources */,
 				D255E4E2CBD6D88CA5F7AABE03C26079 /* MaterialIcons.ttf in Resources */,
-				184550B5C6E45BAB694F8960C48C45D0 /* OpenIconic.ttf in Resources */,
+				9594FB4B20CC4C91001FCF0B /* OpenIconic.ttf in Resources */,
 				9E9C28B6E20D3592899FD455251867EB /* Stateface.ttf in Resources */,
 				ABC18650D9A0950CB4B0B81E45E45F1E /* WeatherIcons.ttf in Resources */,
 			);

@@ -1,16 +1,17 @@
 //
-//  viewClientiCell.swift
+//  cellStoricoAcquisti.swift
 //  FidelioAPP
 //
-//  Created by Matteo on 27/05/18.
+//  Created by Matteo on 23/06/18.
 //  Copyright © 2018 Matteo. All rights reserved.
 //
 
 import UIKit
 
-class cellClientiController: UITableViewCell {
-    @IBOutlet weak var lblRagSociale: UILabel!
-    @IBOutlet weak var lblEmail: UILabel!
+class cellStoricoAcquisti: UITableViewCell {
+    @IBOutlet weak var lblImporto: UILabel!
+    @IBOutlet weak var lblCliente: UILabel!
+    @IBOutlet weak var lblData: UILabel!
     @IBOutlet weak var imgIcona: UIImageView!
     
     override func awakeFromNib() {
