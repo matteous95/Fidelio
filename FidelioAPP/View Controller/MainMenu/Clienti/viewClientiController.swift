@@ -19,6 +19,8 @@ class viewClientiController: UITableViewController, UISearchResultsUpdating, UIS
 
     @IBOutlet var tableViewClienti: UITableView!
     @IBOutlet weak var navigatorClienti: UINavigationItem!
+    @IBOutlet weak var btnNew: UIButton!
+    
     
     
     override func viewDidLoad() {
@@ -26,6 +28,8 @@ class viewClientiController: UITableViewController, UISearchResultsUpdating, UIS
         setSearchControll()
         tableViewClienti.rowHeight = 50
         caricaClienti()
+        btnNew.setTitle("", for: .normal)
+        
     }
     
     func setSearchControll() {
@@ -154,9 +158,15 @@ class viewClientiController: UITableViewController, UISearchResultsUpdating, UIS
     }
     
     
-    //--------------------------------------------------------------------
+ 
+    
+      //BUTTON   ------------------------------------------------------------
+    @IBAction func pressNewCliente(_ sender: Any) {
+        performSegue(withIdentifier: "toNewCliente", sender: nil )
+    }
     
     
+        //--------------------------------------------------------------------
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -164,6 +174,12 @@ class viewClientiController: UITableViewController, UISearchResultsUpdating, UIS
             let vc = segue.destination as! viewDettaglioClienteController
             vc.currIDCliente = sender as? Int
         }
+        
+        if segue.identifier == "toNewCliente"{
+            let vc = segue.destination as! viewEditClienteController
+            vc.IDCliente = sender as? Int
+        }
+
     }
    
     

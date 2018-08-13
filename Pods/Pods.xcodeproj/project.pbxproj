@@ -3,169 +3,437 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		099C597C70BBD4125AB08EF365AE5674 /* Linearicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC13B39103F1354E02E0D94BF6488 /* Linearicons.ttf */; };
-		0B35610B93D8A5687F30B7F659CB40D0 /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B2F2C0C9051C9FE0CCC088FF21B948 /* QRCodeReaderViewControllerBuilder.swift */; };
-		0EBA6DB6565E96D5F2FC4ADBCA1263BC /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95661F24587539409979C4ABDA9E95AF /* QRCodeReaderViewContainer.swift */; };
-		1CAA6736721E4BFF35ED166B60C8AEE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */; };
-		206D9556460E52F7FCCCEB1EA03403E6 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1FB0C4DB2F29353806117D36BFA074 /* QRCodeReader.swift */; };
-		29FD268BFE7E29E3D78643B807E2DF08 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67060354942CBA2BCEE599A191154DA1 /* QRCodeReaderResult.swift */; };
-		2A31478B49B3EC4F4173C0AA6022AC87 /* Dripicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD3D8BCB0BD12A8B6CB1DD4E406606F4 /* Dripicons.ttf */; };
-		2C669BF03F56B03486D7B2379E174F20 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840966EAD0718963750ABB9F4A6EB218 /* AVFoundation.framework */; };
-		380001A96746F56C589318ACA4239DAE /* SwiftIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE0A5B0A1CACD4149EE38E24018DAD /* SwiftIcons.swift */; };
-		3DABC2333B02912333A2C762112DEAEF /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2A53399C871A421195B3D68E625E2 /* ToggleTorchButton.swift */; };
-		3F1C6BBA7A540E060E7CF3EB106BB57C /* Pods-FidelioAPP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76800ACF9DD7E9C8F7A5E1D4804FAB2B /* Pods-FidelioAPP-dummy.m */; };
-		41D69868C6777D4F1D31A41BF2B56C9C /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C3EE289460302F6B1AC94A9F7B64E /* QRCodeReaderViewControllerDelegate.swift */; };
-		45B3029F2F1BEC5BBD7525A97E6A13BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */; };
-		4BEAA18ABCBF36EF3A23E7662C66384E /* SwiftIcons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B53EA3D6F3828920E37C1A9E521E2609 /* SwiftIcons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EC99E00F990E8F22865F620F656E7AA /* QRCodeReader.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF4B68D865372329CAF7A1CE5935254 /* QRCodeReader.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		604684E483827F6D2492822B0BEACD7A /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77823BBE8AAF1A2C1C67B3F921F43CDC /* Ionicons.ttf */; };
-		6D1BBFE683B0636DB3F01E3C2B6D7130 /* SwiftIcons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D026B031723FDA3A241962B34DA5A1 /* SwiftIcons-dummy.m */; };
-		745CF8537F980BC47BC8F380E16BE5AB /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A530F8252AF0FDFC89808F89AB469E /* QRCodeReaderView.swift */; };
-		7722AB5EFA0E1457E7F5CD7DCB180DBE /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31A8384F14767760C3C6A7AA0B2C8A /* QRCodeReaderViewController.swift */; };
-		84F3E8B39737E657BFCA44A8FA8DE26E /* MapIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39FF64369818D463A1CFF942195B01D6 /* MapIcons.ttf */; };
-		8DF026F5447ACF94E60AC5217FBDF67C /* SwiftIcons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F760134048F07CE300B3A0363983AD10 /* SwiftIcons.bundle */; };
-		8E1ED46BA9C6C2E50A4095264814BF9C /* Pods-FidelioAPP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F4C41A2A7F48D140376074E1DEDB06 /* Pods-FidelioAPP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		933AB8965608254D31DF584916286389 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D000A41A9285515176A7533A70F8F /* ReaderOverlayView.swift */; };
-		9594FB4A20CC4C8D001FCF0B /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9594FB4920CC4C24001FCF0B /* FontAwesome.ttf */; };
-		9594FB4B20CC4C91001FCF0B /* OpenIconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9594FB4820CC4C15001FCF0B /* OpenIconic.ttf */; };
-		9E9C28B6E20D3592899FD455251867EB /* Stateface.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B07D3FEDBE8640D78ABF72EFC861FF5 /* Stateface.ttf */; };
-		A0ECF5406200D834EC97E32210A03ADC /* Emoji.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C518F57399570CA8286CE4B8744C80A /* Emoji.ttf */; };
-		ABC18650D9A0950CB4B0B81E45E45F1E /* WeatherIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCF26C4B27F3B7232CECADFD2FEFDCED /* WeatherIcons.ttf */; };
-		BB681FBF0AA65DCBEFCB7397DC28E652 /* Icofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1012BCCEEBEACF504A6AA87B2376865 /* Icofont.ttf */; };
-		D008DB587395A4B65205B9679425970E /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7BBA56380ABBA1FA868468225BD4EA /* QRCodeReader.swift-dummy.m */; };
-		D255E4E2CBD6D88CA5F7AABE03C26079 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B429B743FE9FF1A88D720CBEFD66651 /* MaterialIcons.ttf */; };
-		DB98CA5CD1E0AB72F503E00EBE025815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */; };
-		EF2BC0582BA9127F2482372F37C6EBC7 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB52B85CED8AA99D0DC4A63BAECBCBB /* SwitchCameraButton.swift */; };
+		02C2EC2382D28B8E146E4DE3F8A2A057 /* SwiftIcons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D78528F9757D63EEDF447D39B2EA5CF8 /* SwiftIcons-dummy.m */; };
+		068E8FEEEF03C90C4FE9520009B3A016 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD0E4BE382711E1E8ED4AED04124D /* Typealiases.swift */; };
+		12B50F80982AF01A28DF516E1803EB5F /* Icofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 233939D03C5D2F2309C9AEC7096D41C5 /* Icofont.ttf */; };
+		1A0D1F19F14E19D81170C67A89DAF11C /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30B63C99045A4E7BDA4262B031C097A /* QRCodeReaderViewContainer.swift */; };
+		1EED1CBCAA8DDEE44D2BA3A95240E929 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D000D2BF1698C5C46F6A042FAB4F5BED /* ConstraintMakerEditable.swift */; };
+		254389332A82BEA45992F661F5B3DD56 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950690A916D04E2B0A59C66055D687B /* ConstraintDescription.swift */; };
+		2650F659DA92C163115D32025D7B8B0E /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 028DF56FEC892A5A91273E52F199B405 /* FontAwesome.ttf */; };
+		27D54A2B7F73E61E6F3DC8B0F41939FA /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555D0FB72F6C1271B3400685BB32E46 /* ConstraintPriority.swift */; };
+		27EBB2018CBCA7FAD1784A4FFA1B09F5 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97313EFE2A0ADD83FD21A0FCDC3E241 /* ConstraintMaker.swift */; };
+		27F3E4F9C731571115D25C69DA771B91 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C1C40F0574BE67B2D619D563CD307 /* SwitchCameraButton.swift */; };
+		284A6ED51E9FC88DA9146E0D19955A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB036D129CA4057AD468E5381729EC5A /* Foundation.framework */; };
+		285A5E2E0E65AD99D88AEF999D9CB135 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD0EA9C66CC9F3153372A342A570ED1 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29A3B5C0505F684217B49C8C3D9E9833 /* NotificationBannerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58404AE9E60D46B22A0248BA06F3ECF7 /* NotificationBannerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B889FAA739FD519B71E01A37AA8B0EA /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F9871C29896C0872B94670C3E9DB1 /* ConstraintInsets.swift */; };
+		2E2A58BFF7A41A915F7C1BDC2E37DA45 /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CBCF56B12A1C14078F00A7110DA338 /* QRCodeReader.swift-dummy.m */; };
+		341295F59AF123C0C53B486E47F02B5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB036D129CA4057AD468E5381729EC5A /* Foundation.framework */; };
+		3495CF98F4BD677FD65CF8D6E18BAB07 /* MarqueeLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5648B0B58D9E7DE9D459E6731B86882 /* MarqueeLabel.framework */; };
+		3A2B89595BDE2A936B16A0BF577A13B9 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5433470A690A620638BAC5E96C6A6EB /* ConstraintLayoutGuideDSL.swift */; };
+		3B2D220E5C868240CD0B787005284671 /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC5A0F60D9E75DE1F189B8F35F5392B /* QRCodeReaderViewControllerDelegate.swift */; };
+		3D0941637832D2ABCFB4FCE55DFA75BF /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB8EC94D4CF96811F5476E358869F9C /* ConstraintLayoutGuide+Extensions.swift */; };
+		3FB5BA9230FEE48753132A64EE996891 /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C1D67AA26CA7CBE227DF79009FB836 /* QRCodeReaderViewControllerBuilder.swift */; };
+		41EB21CC9E40671FD59A92C931DE69BF /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AE7DA20F13D48E5292B4B4CC0A8644 /* SnapKit.framework */; };
+		451410B462A1BD80EE492CA014D3774D /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE76C7298ED56A7D4BE327F1DF2E2128 /* LayoutConstraintItem.swift */; };
+		4692387FDE49B5CBC9D1339E1636EB6A /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E836BF089A1DA605CFEEF7F4FB8E8 /* ConstraintPriorityTarget.swift */; };
+		4FB4503F67AA2D2E63BA2B043B2F35F3 /* WeatherIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9392305CA064A26D309CD0CDB4CC17B3 /* WeatherIcons.ttf */; };
+		50DE060C2698A7433C9EC43AD83C863C /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFAC226B0CC5E314BECE202FA28B33 /* Debugging.swift */; };
+		53B967810C9AEBFF2E908D089E88A8D9 /* NotificationBannerUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A970215C58CE07A32824155205761E6 /* NotificationBannerUtilities.swift */; };
+		53D52A174EC876E58D2A18031B9F51D2 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B92F5DE4F346480CC2A31551F664DB6 /* MaterialIcons.ttf */; };
+		58BC968278BF35B00F9A574D79D2B8CD /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C417CB0A2BE1474B51AEA2DBBBD043 /* ConstraintRelation.swift */; };
+		5CB6F6D84ABC9285380AED9DB4B14CE7 /* BannerColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD69F38131B12E5E3F29806DA04288 /* BannerColors.swift */; };
+		6131918F7D68D9CF4F7F72C2EECB4FB0 /* BannerHapticGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0CE1FC4A5D24A174795D1440BBB1 /* BannerHapticGenerator.swift */; };
+		67E4A130DD086AD508A4064D07071DA7 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB332DD1F52CDE8633FA89E43A25B7A /* ToggleTorchButton.swift */; };
+		682A5E479FA6529BEED24DC43BBD685C /* NotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927B39E46D8E705B737D652A6A16C23 /* NotificationBanner.swift */; };
+		6B04B40DC18243C2340F20A2A13471AA /* Stateface.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5F6A837DADA7EB0EB66E9D64D86D74A /* Stateface.ttf */; };
+		6F1793980CF19C57F5AD0EF68FB112DF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD170ADE00598DE81DA280691C94265 /* AVFoundation.framework */; };
+		6F256D56AAB095A73D96EE102DC98645 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908C02DBAAC3C9ABD04A182D87AEF634 /* QRCodeReaderView.swift */; };
+		73D88283FE0772084CF3BF830F084E16 /* Emoji.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C7F163EA22AE6A538DD5F2F3860C7CF /* Emoji.ttf */; };
+		78BD4FCDDE0F1FF6E5D257AE9ECB223B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB036D129CA4057AD468E5381729EC5A /* Foundation.framework */; };
+		7A85DDA82105465191090E1CD3FCDC00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C0664EB7BF474674388D2B1073F5733 /* UIKit.framework */; };
+		7AD998D08A00810B7D643BBFA8AFD5A2 /* SwiftIcons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45014D67495F2455DD3E08A661759439 /* SwiftIcons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D2852CB4E5AE6C5488D3D449B8A3F63 /* SwiftIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E934378708012CC266A006D565116 /* SwiftIcons.swift */; };
+		81757F684D084AC69DAE797488D314F2 /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD65E26B0AD272589260CA6D4B908A66 /* MarqueeLabel-dummy.m */; };
+		87808D9B07A8C7E54A446F8D894C7069 /* NotificationBannerQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092DD9B72F05E1D6589D4A2155E967D /* NotificationBannerQueue.swift */; };
+		8CB13A95CE0597C93931A23CAAB9C040 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1336B9B3DFD6F8AFF373C60A7889A /* ConstraintRelatableTarget.swift */; };
+		90F438528619977EE54D93F123FAAB85 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6F7846FD318E3C9B501E6027D017A /* ConstraintLayoutSupportDSL.swift */; };
+		923214FFA0FDFEE4156C940898DC7015 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E6063BA1C885130E9E641C6FE9189 /* ConstraintConfig.swift */; };
+		93DC99B93615D748ADE3E04E634678D6 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DF12CD8A8C91A486F54453809F0FDC7 /* Ionicons.ttf */; };
+		952DDB6C2A3E72471967181E4205F322 /* SwiftIcons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 053057D0D8286A1D70E46E0233BB8B5F /* SwiftIcons.bundle */; };
+		974CF452F9D3FE6FF3E697DD864EBD13 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63A4DF6EEAAF1321D264F125C90B2F /* UILayoutSupport+Extensions.swift */; };
+		9934F16C237A1A16241E331B0BB9342D /* BannerPositionFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548EB5238FCD6D9B5BC8C6391A0A23B /* BannerPositionFrame.swift */; };
+		A4E3B9DAE7F6567A3CE1353323516982 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74854D69DAC7242FE64AF4AAB74AB9CC /* QRCodeReaderViewController.swift */; };
+		A9A0CD043919889240193DD75C206CDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB036D129CA4057AD468E5381729EC5A /* Foundation.framework */; };
+		AF0A84CED8B524D286A0521F896F8402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB036D129CA4057AD468E5381729EC5A /* Foundation.framework */; };
+		AFD1EAC48C02F48CE6AA07D33AA5B356 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F077FA7DABB2E544B17E7F28144EAD2D /* ConstraintViewDSL.swift */; };
+		B11E7135157934C4B57EDBFF39315B53 /* OpenIconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2948AD01A2ABEBFD899E894302A57B9D /* OpenIconic.ttf */; };
+		B136D7ECEAE3B173E3685234A7D2CBB6 /* MapIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9D6C506EA914AB97CEB089D36D8D60 /* MapIcons.ttf */; };
+		B1DF58FE1558D4FFF491519D4E1BC598 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E92C10718D05936AE8BC274A55BC46 /* ConstraintLayoutGuide.swift */; };
+		B3C99FE491A16B8E75CDC1F6454AAAB1 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76DDC9C1285384EC363821CA7FA00AE /* ConstraintItem.swift */; };
+		B67EFAEFCB60963095904E8B0EDB1167 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DD560CE7E5F1DA0FCE0385F31D40DC /* LayoutConstraint.swift */; };
+		B812F90DB775AFDF1DFA13480D844916 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D44A1DF45701E526B9910379CA0A19 /* MarqueeLabel.swift */; };
+		BD73F79789EEE788B878AD690347A2C6 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C877950159CF952EE3FE9542044CAA /* QRCodeReader.swift */; };
+		BE442A138B7D1FE4DFE7C0FD525A6E0B /* Dripicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D15710D532DC3FE1D27BD12C0CEAC11 /* Dripicons.ttf */; };
+		BE64F09C3FD8A8D6792060FA5E10381A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C719915ED79014A1BD4DF25F2E7108 /* QuartzCore.framework */; };
+		BEA971ED37B4933878CC144B9BE28F87 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A330CF4431F587527B62CE1B7CBAD /* ConstraintAttributes.swift */; };
+		C21277D26A696BF58393051D1F5909BE /* BaseNotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6172E0D01CC1C241772C31C34C115D3 /* BaseNotificationBanner.swift */; };
+		C40F0B18CFD24829915F70A03BE7039E /* Linearicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A05529C1E16A2D009268CFA74A289926 /* Linearicons.ttf */; };
+		C4121571F5F7C6242E4857715F615C4C /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67064E852061B6A1D9D3121C1224A53F /* ConstraintMakerPriortizable.swift */; };
+		C866131CE9297DB0472B225BF953A697 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED203C75B44C14351287A4E7998F31A /* ConstraintMakerExtendable.swift */; };
+		C8BD10458C541DE11F5992B9C482F8B3 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948B72C5C1A41AF8A7940C17BC9D453 /* ConstraintView+Extensions.swift */; };
+		C8EBAB053AEAF8D0DAB59CD52DE7DF3C /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECA7D3A18600D6A8AAE446F108A745 /* ConstraintConstantTarget.swift */; };
+		CD4D48D7A3A00D01E0C0B41E33FEA165 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530D44BB4BB6B1030CDEA249026A4C80 /* ReaderOverlayView.swift */; };
+		D4D32FFE1DCFC00C5C8D39D514A2BF57 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7940DA4083E9DF2C1C59AA5B2C098C /* ConstraintLayoutSupport.swift */; };
+		D50AA975B6D52B1475165F7448098702 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1404D9500FE23344935BE27B025BD13F /* QRCodeReaderResult.swift */; };
+		D554B8F6AFDC65B862C5EBE7191A27BB /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8B9E0AF6C0BE63934227784D74DE9 /* Constraint.swift */; };
+		D7E9775DA243DC6375DDCC1A73040F0D /* QRCodeReader.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E40D04F3D2765AE9979C471BC3EBE9BD /* QRCodeReader.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB923051D121B166B855AF1C0809BAEF /* MarqueeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1913A640211EFCB5074E82ED209B3044 /* MarqueeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7FF9AD4720740E641EAF31560B93E0 /* Pods-FidelioAPP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76800ACF9DD7E9C8F7A5E1D4804FAB2B /* Pods-FidelioAPP-dummy.m */; };
+		E12F2F4AB46F2B8AF5E38C1A05C89C0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB036D129CA4057AD468E5381729EC5A /* Foundation.framework */; };
+		E23841A7779278B2284EDC2B0715E8AE /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F10A6DE735956F14D0C4E6F42284F53 /* ConstraintInsetTarget.swift */; };
+		E8EB9655DC9F33E37F1E0055FAB54453 /* StatusBarNotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF3F0A8E5D0ED945F1623CBDD1EE3E /* StatusBarNotificationBanner.swift */; };
+		EC5F13C7C33DC6DD978B5D35013C16AA /* NotificationBannerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA315F5E2083954A73796512EF36187 /* NotificationBannerSwift-dummy.m */; };
+		EEE17AEEEE036DA80B5DD375AA233454 /* BannerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F47C9BCE946242D2FC49F480E9211E4 /* BannerStyle.swift */; };
+		F3076539AEA2F63B8156019D9BC8930B /* Pods-FidelioAPP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F4C41A2A7F48D140376074E1DEDB06 /* Pods-FidelioAPP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F35C987287A460E550E405674861E9FB /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B18A474443D2311BC027A42A891F8 /* ConstraintView.swift */; };
+		F6C79EF0FC967B1A27B66AE134AC1A7D /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82DFC5389F3AD71721E3651A39DCA24 /* ConstraintMakerFinalizable.swift */; };
+		F78E669A0D4F3AA7CF646D975F3C4D46 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DECABA4ED0BE2E67354369151D78B /* ConstraintOffsetTarget.swift */; };
+		F79E9BC1FE2EFEC5E96C61DE637466A0 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1504878ABE84500EDAA362E0C1FDAC4A /* ConstraintMultiplierTarget.swift */; };
+		F81DC3B381B0C486CD86753F6682192C /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD34B4300D0D20C90049BCF0ACF2D03 /* ConstraintDSL.swift */; };
+		F8DD79B53005ACAFA84FCA6B68E30C60 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9422F06BF69491176B66F2CC41675D7 /* SnapKit-dummy.m */; };
+		FCE9C18F23B6C1252904F6982E1D42ED /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0BA90B78E0553073F4749A14E0CBF /* ConstraintMakerRelatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		53D8CB1F890FC2C5FA41F9D6CD59F7B3 /* PBXContainerItemProxy */ = {
+		2F4AF44E2E9DF6F0601697098001138D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7EF98D36B1D4AFDC7C9B1E2CA464E861;
-			remoteInfo = SwiftIcons;
-		};
-		9739D7F0BB33776C6A4F10823B51BE29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D71D3D0DBE5BC1AA1C7C4E1480EC63F1;
+			remoteGlobalIDString = BAABF157DC256429D5409E49E8656CD7;
 			remoteInfo = QRCodeReader.swift;
 		};
-		97FAE5BF99D43C7D0B524CC6A83FBC44 /* PBXContainerItemProxy */ = {
+		34806EB21A4F6238C6B41932A5B4FCD8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D033947C748235D68BCB4CD467436D0;
+			remoteGlobalIDString = B4A5E5A0D8C994FC9EE897B8D14DD825;
 			remoteInfo = "SwiftIcons-SwiftIcons";
+		};
+		59BA862A8A58845F662459C3C69755F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC662CBB66DFBF297E1AE8050DE699D2;
+			remoteInfo = NotificationBannerSwift;
+		};
+		725C7416326932BD54E61A96748528EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6964B5863CEA48A2BB35C7F4475725;
+			remoteInfo = SwiftIcons;
+		};
+		98B4ED0F82C8F7EFBC423B86D8BAE5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16B66C4B0E5D35B2F1155B6262C42CF5;
+			remoteInfo = SnapKit;
+		};
+		9C874BB51BD907BB0BC3823E0F3AF429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16B66C4B0E5D35B2F1155B6262C42CF5;
+			remoteInfo = SnapKit;
+		};
+		DEE280ACAD9D23BC4E5A5B0AF425FD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320AD47B0C6BA014D301395D3BFC8FB6;
+			remoteInfo = MarqueeLabel;
+		};
+		F36A64D57F66A414BE1D7586FB873461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320AD47B0C6BA014D301395D3BFC8FB6;
+			remoteInfo = MarqueeLabel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08B2F2C0C9051C9FE0CCC088FF21B948 /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerBuilder.swift; path = Sources/QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
-		11D957DE0DDE4EDB044B3ACB82B0A961 /* QRCodeReader.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-prefix.pch"; sourceTree = "<group>"; };
-		27FE0A5B0A1CACD4149EE38E24018DAD /* SwiftIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIcons.swift; path = Source/SwiftIcons.swift; sourceTree = "<group>"; };
-		2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2AF2A53399C871A421195B3D68E625E2 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = Sources/ToggleTorchButton.swift; sourceTree = "<group>"; };
-		39FF64369818D463A1CFF942195B01D6 /* MapIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = MapIcons.ttf; path = Source/MapIcons.ttf; sourceTree = "<group>"; };
-		3A1FB0C4DB2F29353806117D36BFA074 /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = Sources/QRCodeReader.swift; sourceTree = "<group>"; };
-		3B429B743FE9FF1A88D720CBEFD66651 /* MaterialIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = MaterialIcons.ttf; path = Source/MaterialIcons.ttf; sourceTree = "<group>"; };
-		4A79EB6A689A8B6C6DB8658BD7A3ED3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B07D3FEDBE8640D78ABF72EFC861FF5 /* Stateface.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Stateface.ttf; path = Source/Stateface.ttf; sourceTree = "<group>"; };
-		4B1C7DF44897FE826DFFE41AE0161AF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B562E40A82BF9C63DD9BB514AA16B8E /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QRCodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52A530F8252AF0FDFC89808F89AB469E /* QRCodeReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = Sources/QRCodeReaderView.swift; sourceTree = "<group>"; };
-		588D000A41A9285515176A7533A70F8F /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = Sources/ReaderOverlayView.swift; sourceTree = "<group>"; };
-		67060354942CBA2BCEE599A191154DA1 /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = Sources/QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		028DF56FEC892A5A91273E52F199B405 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = Source/FontAwesome.ttf; sourceTree = "<group>"; };
+		04BF3F0A8E5D0ED945F1623CBDD1EE3E /* StatusBarNotificationBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusBarNotificationBanner.swift; path = NotificationBanner/Classes/StatusBarNotificationBanner.swift; sourceTree = "<group>"; };
+		053057D0D8286A1D70E46E0233BB8B5F /* SwiftIcons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftIcons.bundle; path = "SwiftIcons-SwiftIcons.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B2ADD875033087F353F681AB68F6FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BD0EA9C66CC9F3153372A342A570ED1 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		0F10A6DE735956F14D0C4E6F42284F53 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		0FC0BA90B78E0553073F4749A14E0CBF /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		122E3E8451D6528E84426B8AFFC827D1 /* NotificationBannerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NotificationBannerSwift.modulemap; sourceTree = "<group>"; };
+		1404D9500FE23344935BE27B025BD13F /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = Sources/QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		1504878ABE84500EDAA362E0C1FDAC4A /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		1913A640211EFCB5074E82ED209B3044 /* MarqueeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-umbrella.h"; sourceTree = "<group>"; };
+		1A7940DA4083E9DF2C1C59AA5B2C098C /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		1CD34B4300D0D20C90049BCF0ACF2D03 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		1D40670B0D8022E538F4F253C0DE0975 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D63A4DF6EEAAF1321D264F125C90B2F /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		20C417CB0A2BE1474B51AEA2DBBBD043 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		233939D03C5D2F2309C9AEC7096D41C5 /* Icofont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Icofont.ttf; path = Source/Icofont.ttf; sourceTree = "<group>"; };
+		2927B39E46D8E705B737D652A6A16C23 /* NotificationBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationBanner.swift; path = NotificationBanner/Classes/NotificationBanner.swift; sourceTree = "<group>"; };
+		2948AD01A2ABEBFD899E894302A57B9D /* OpenIconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenIconic.ttf; path = Source/OpenIconic.ttf; sourceTree = "<group>"; };
+		2AFFAF4D4533A71BC37F3621A0986B03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0692AEE60308CDC5D8D1ED5D40587E /* SwiftIcons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftIcons-prefix.pch"; sourceTree = "<group>"; };
+		2D15710D532DC3FE1D27BD12C0CEAC11 /* Dripicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Dripicons.ttf; path = Source/Dripicons.ttf; sourceTree = "<group>"; };
+		2EAD69F38131B12E5E3F29806DA04288 /* BannerColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BannerColors.swift; path = NotificationBanner/Classes/BannerColors.swift; sourceTree = "<group>"; };
+		2F14AA673E11F4702FAB716FC753F174 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		3AB332DD1F52CDE8633FA89E43A25B7A /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = Sources/ToggleTorchButton.swift; sourceTree = "<group>"; };
+		3CD170ADE00598DE81DA280691C94265 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		434233BB65B42C7E396644CD23800CB9 /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
+		45014D67495F2455DD3E08A661759439 /* SwiftIcons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftIcons-umbrella.h"; sourceTree = "<group>"; };
+		49C1D67AA26CA7CBE227DF79009FB836 /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerBuilder.swift; path = Sources/QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
+		4BB8EC94D4CF96811F5476E358869F9C /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		5092DD9B72F05E1D6589D4A2155E967D /* NotificationBannerQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationBannerQueue.swift; path = NotificationBanner/Classes/NotificationBannerQueue.swift; sourceTree = "<group>"; };
+		50B28B1EB51ED359BE459F80B1DE7804 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530D44BB4BB6B1030CDEA249026A4C80 /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = Sources/ReaderOverlayView.swift; sourceTree = "<group>"; };
+		54203A9E67EE6A91E823EAECED066014 /* NotificationBannerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotificationBannerSwift-prefix.pch"; sourceTree = "<group>"; };
+		55D44A1DF45701E526B9910379CA0A19 /* MarqueeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarqueeLabel.swift; path = Sources/Swift/MarqueeLabel.swift; sourceTree = "<group>"; };
+		578EE678186D7AE875DB2D806D799A76 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		58404AE9E60D46B22A0248BA06F3ECF7 /* NotificationBannerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotificationBannerSwift-umbrella.h"; sourceTree = "<group>"; };
+		5AE9D5003C26AB64640A4C2FBC6AB2F2 /* SwiftIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftIcons.framework; path = SwiftIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC5A0F60D9E75DE1F189B8F35F5392B /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = Sources/QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
+		5F47C9BCE946242D2FC49F480E9211E4 /* BannerStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BannerStyle.swift; path = NotificationBanner/Classes/BannerStyle.swift; sourceTree = "<group>"; };
+		649E934378708012CC266A006D565116 /* SwiftIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIcons.swift; path = Source/SwiftIcons.swift; sourceTree = "<group>"; };
+		66DD560CE7E5F1DA0FCE0385F31D40DC /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		67064E852061B6A1D9D3121C1224A53F /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		672A4E5076A82827DF58619A2DD5715F /* Pods-FidelioAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FidelioAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		67ADE4DCA782FC38CA48E910414AF9C1 /* SwiftIcons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftIcons.xcconfig; sourceTree = "<group>"; };
+		6A970215C58CE07A32824155205761E6 /* NotificationBannerUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationBannerUtilities.swift; path = NotificationBanner/Classes/NotificationBannerUtilities.swift; sourceTree = "<group>"; };
+		6BD481C18C61E2681C5F2010B1C7AD75 /* QRCodeReader.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-prefix.pch"; sourceTree = "<group>"; };
+		6C7F163EA22AE6A538DD5F2F3860C7CF /* Emoji.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Emoji.ttf; path = Source/Emoji.ttf; sourceTree = "<group>"; };
+		704C1C40F0574BE67B2D619D563CD307 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = Sources/SwitchCameraButton.swift; sourceTree = "<group>"; };
+		70A1336B9B3DFD6F8AFF373C60A7889A /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		717E836BF089A1DA605CFEEF7F4FB8E8 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		7352FBD604A89AFA705ADE0752168778 /* MarqueeLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarqueeLabel.framework; path = MarqueeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74854D69DAC7242FE64AF4AAB74AB9CC /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = Sources/QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		7486BE6260CBB3A2393257142AFB72C2 /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
 		751EDA74CD4CDC5B1A3BD65AE886F39E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76800ACF9DD7E9C8F7A5E1D4804FAB2B /* Pods-FidelioAPP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FidelioAPP-dummy.m"; sourceTree = "<group>"; };
-		77823BBE8AAF1A2C1C67B3F921F43CDC /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Ionicons.ttf; path = Source/Ionicons.ttf; sourceTree = "<group>"; };
-		77D026B031723FDA3A241962B34DA5A1 /* SwiftIcons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftIcons-dummy.m"; sourceTree = "<group>"; };
-		7C518F57399570CA8286CE4B8744C80A /* Emoji.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Emoji.ttf; path = Source/Emoji.ttf; sourceTree = "<group>"; };
+		7948B72C5C1A41AF8A7940C17BC9D453 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		7C0664EB7BF474674388D2B1073F5733 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7D5DECABA4ED0BE2E67354369151D78B /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		7DF12CD8A8C91A486F54453809F0FDC7 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = Source/Ionicons.ttf; sourceTree = "<group>"; };
 		7E7C2A563935007FD55E5A8EB70139BD /* Pods-FidelioAPP-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FidelioAPP-acknowledgements.markdown"; sourceTree = "<group>"; };
-		840966EAD0718963750ABB9F4A6EB218 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95661F24587539409979C4ABDA9E95AF /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = Sources/QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
-		9594FB4820CC4C15001FCF0B /* OpenIconic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = OpenIconic.ttf; path = Source/OpenIconic.ttf; sourceTree = "<group>"; };
-		9594FB4920CC4C24001FCF0B /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = Source/FontAwesome.ttf; sourceTree = "<group>"; };
-		9C7BBA56380ABBA1FA868468225BD4EA /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
+		7ED203C75B44C14351287A4E7998F31A /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		7F4B04A59B94C9701F9B6578F669F776 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817E6063BA1C885130E9E641C6FE9189 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		81C877950159CF952EE3FE9542044CAA /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = Sources/QRCodeReader.swift; sourceTree = "<group>"; };
+		8B92F5DE4F346480CC2A31551F664DB6 /* MaterialIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = MaterialIcons.ttf; path = Source/MaterialIcons.ttf; sourceTree = "<group>"; };
+		908C02DBAAC3C9ABD04A182D87AEF634 /* QRCodeReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = Sources/QRCodeReaderView.swift; sourceTree = "<group>"; };
+		9392305CA064A26D309CD0CDB4CC17B3 /* WeatherIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = WeatherIcons.ttf; path = Source/WeatherIcons.ttf; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		993F9871C29896C0872B94670C3E9DB1 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		9C9D6C506EA914AB97CEB089D36D8D60 /* MapIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = MapIcons.ttf; path = Source/MapIcons.ttf; sourceTree = "<group>"; };
 		9CE4A544EEE368B38162CA8FE0BDB397 /* Pods-FidelioAPP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FidelioAPP.modulemap"; sourceTree = "<group>"; };
-		AA000A65EA2618404C8D6A79A946E554 /* SwiftIcons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftIcons.xcconfig; sourceTree = "<group>"; };
-		ACF4B68D865372329CAF7A1CE5935254 /* QRCodeReader.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-umbrella.h"; sourceTree = "<group>"; };
+		A05529C1E16A2D009268CFA74A289926 /* Linearicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Linearicons.ttf; path = Source/Linearicons.ttf; sourceTree = "<group>"; };
+		A2AE7DA20F13D48E5292B4B4CC0A8644 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37A1FE54EA82AD751868CF54710441E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6CBCF56B12A1C14078F00A7110DA338 /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
+		A8CBF5E33B4699F52886C68C0C7672D3 /* Pods_FidelioAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FidelioAPP.framework; path = "Pods-FidelioAPP.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9422F06BF69491176B66F2CC41675D7 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		AF6B102767831549D6A6E724AF565E4E /* Pods-FidelioAPP-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FidelioAPP-acknowledgements.plist"; sourceTree = "<group>"; };
+		B055985EF04591B2BE376B90468ABE3D /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
 		B08F77BF9AD7604FBF1633AFB1314D57 /* Pods-FidelioAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FidelioAPP.release.xcconfig"; sourceTree = "<group>"; };
 		B12DC0330E42E8F205F6C70FC505E437 /* Pods-FidelioAPP-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FidelioAPP-resources.sh"; sourceTree = "<group>"; };
 		B492FAB03740028312330EFC3CA2D1BA /* Pods-FidelioAPP-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FidelioAPP-frameworks.sh"; sourceTree = "<group>"; };
-		B53EA3D6F3828920E37C1A9E521E2609 /* SwiftIcons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftIcons-umbrella.h"; sourceTree = "<group>"; };
-		BFC10E4AB2798584F78004C597D1653B /* ResourceBundle-SwiftIcons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftIcons-Info.plist"; sourceTree = "<group>"; };
-		C5E33DCB2773CC2C20090137F8F48B0D /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
-		CC9C3EE289460302F6B1AC94A9F7B64E /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = Sources/QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
-		D1E779DF18B127024AB0F24396B099D3 /* SwiftIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B555D0FB72F6C1271B3400685BB32E46 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		B8E92C10718D05936AE8BC274A55BC46 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		BDC0815A6E995FEAE336B4B6C1F6F0BA /* NotificationBannerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NotificationBannerSwift.framework; path = NotificationBannerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE76C7298ED56A7D4BE327F1DF2E2128 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		BF1A330CF4431F587527B62CE1B7CBAD /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		C4ECA7D3A18600D6A8AAE446F108A745 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		CB036D129CA4057AD468E5381729EC5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD65E26B0AD272589260CA6D4B908A66 /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
+		CFFCD0E4BE382711E1E8ED4AED04124D /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		D000D2BF1698C5C46F6A042FAB4F5BED /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
 		D1F4C41A2A7F48D140376074E1DEDB06 /* Pods-FidelioAPP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FidelioAPP-umbrella.h"; sourceTree = "<group>"; };
-		D2E59FB0BDB0D9E09490910E88CC4FB0 /* Pods_FidelioAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FidelioAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCF26C4B27F3B7232CECADFD2FEFDCED /* WeatherIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = WeatherIcons.ttf; path = Source/WeatherIcons.ttf; sourceTree = "<group>"; };
-		DD3D8BCB0BD12A8B6CB1DD4E406606F4 /* Dripicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Dripicons.ttf; path = Source/Dripicons.ttf; sourceTree = "<group>"; };
-		EB7C13198878025BB0566964B6C43083 /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
-		EE31A8384F14767760C3C6A7AA0B2C8A /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = Sources/QRCodeReaderViewController.swift; sourceTree = "<group>"; };
-		EEC49227BD49F73C90A5658AA55FCA89 /* SwiftIcons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftIcons.modulemap; sourceTree = "<group>"; };
-		F1012BCCEEBEACF504A6AA87B2376865 /* Icofont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Icofont.ttf; path = Source/Icofont.ttf; sourceTree = "<group>"; };
-		F35E86367F49EDCA5F1C0D4B36C05F00 /* SwiftIcons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftIcons-prefix.pch"; sourceTree = "<group>"; };
-		F760134048F07CE300B3A0363983AD10 /* SwiftIcons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftIcons.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA0CC13B39103F1354E02E0D94BF6488 /* Linearicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Linearicons.ttf; path = Source/Linearicons.ttf; sourceTree = "<group>"; };
-		FAB52B85CED8AA99D0DC4A63BAECBCBB /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = Sources/SwitchCameraButton.swift; sourceTree = "<group>"; };
+		D30B63C99045A4E7BDA4262B031C097A /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = Sources/QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
+		D5648B0B58D9E7DE9D459E6731B86882 /* MarqueeLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarqueeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59B8D2CD9935BC5A64D44EC6AA09567 /* MarqueeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarqueeLabel.modulemap; sourceTree = "<group>"; };
+		D5F6A837DADA7EB0EB66E9D64D86D74A /* Stateface.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Stateface.ttf; path = Source/Stateface.ttf; sourceTree = "<group>"; };
+		D78528F9757D63EEDF447D39B2EA5CF8 /* SwiftIcons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftIcons-dummy.m"; sourceTree = "<group>"; };
+		DB405956976AA303E062984B4FE815ED /* NotificationBannerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NotificationBannerSwift.xcconfig; sourceTree = "<group>"; };
+		DEE6F7846FD318E3C9B501E6027D017A /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		E1C719915ED79014A1BD4DF25F2E7108 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E40D04F3D2765AE9979C471BC3EBE9BD /* QRCodeReader.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-umbrella.h"; sourceTree = "<group>"; };
+		E548EB5238FCD6D9B5BC8C6391A0A23B /* BannerPositionFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BannerPositionFrame.swift; path = NotificationBanner/Classes/BannerPositionFrame.swift; sourceTree = "<group>"; };
+		E6172E0D01CC1C241772C31C34C115D3 /* BaseNotificationBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseNotificationBanner.swift; path = NotificationBanner/Classes/BaseNotificationBanner.swift; sourceTree = "<group>"; };
+		E65A6C262ADCDA5657FA492DD7AD90D6 /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCodeReader.framework; path = QRCodeReader.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E9E529D65D32D9631C2E4E34A70A1D /* MarqueeLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.xcconfig; sourceTree = "<group>"; };
+		EB7AF4D06A13A0C12D372C06619FB7DC /* SwiftIcons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftIcons.modulemap; sourceTree = "<group>"; };
+		ECCFAC226B0CC5E314BECE202FA28B33 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		EEFD0CE1FC4A5D24A174795D1440BBB1 /* BannerHapticGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BannerHapticGenerator.swift; path = NotificationBanner/Classes/BannerHapticGenerator.swift; sourceTree = "<group>"; };
+		F077FA7DABB2E544B17E7F28144EAD2D /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		F403C74A6EE69653CB5A1F4CF656942A /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		F5433470A690A620638BAC5E96C6A6EB /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		F57B18A474443D2311BC027A42A891F8 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		F76DDC9C1285384EC363821CA7FA00AE /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		F82DFC5389F3AD71721E3651A39DCA24 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		F87A2D26CCEDEDA27B350897146ACD4C /* ResourceBundle-SwiftIcons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftIcons-Info.plist"; sourceTree = "<group>"; };
+		F950690A916D04E2B0A59C66055D687B /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		F97313EFE2A0ADD83FD21A0FCDC3E241 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		F9F8B9E0AF6C0BE63934227784D74DE9 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		FBA315F5E2083954A73796512EF36187 /* NotificationBannerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NotificationBannerSwift-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6A8CDA869DBF4229C0AA841C61D65CB7 /* Frameworks */ = {
+		3B6FE3D3BCA7C32542C1041E4CC7818A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45B3029F2F1BEC5BBD7525A97E6A13BF /* Foundation.framework in Frameworks */,
+				A9A0CD043919889240193DD75C206CDB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D46EADD653573F5540F0DC2547BF0313 /* Frameworks */ = {
+		871AED9804926D290E7F101533D7E7CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C669BF03F56B03486D7B2379E174F20 /* AVFoundation.framework in Frameworks */,
-				DB98CA5CD1E0AB72F503E00EBE025815 /* Foundation.framework in Frameworks */,
+				6F1793980CF19C57F5AD0EF68FB112DF /* AVFoundation.framework in Frameworks */,
+				78BD4FCDDE0F1FF6E5D257AE9ECB223B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED57EB1BA04EFF5BE333992A4CD7D0D0 /* Frameworks */ = {
+		980657B3AFFF719720720A83C887BB2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9B73C497A85FE24933986A8BF5850B4 /* Frameworks */ = {
+		B169D579610115B1274BAFF1C561D157 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CAA6736721E4BFF35ED166B60C8AEE3 /* Foundation.framework in Frameworks */,
+				AF0A84CED8B524D286A0521F896F8402 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5223C0CB0508368363F1D4E858C988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284A6ED51E9FC88DA9146E0D19955A38 /* Foundation.framework in Frameworks */,
+				3495CF98F4BD677FD65CF8D6E18BAB07 /* MarqueeLabel.framework in Frameworks */,
+				41EB21CC9E40671FD59A92C931DE69BF /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA46EE51849FC74AB0341C8AF2756F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341295F59AF123C0C53B486E47F02B5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5881BC4ADA6E767FAC6CDFC9A796C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12F2F4AB46F2B8AF5E38C1A05C89C0D /* Foundation.framework in Frameworks */,
+				BE64F09C3FD8A8D6792060FA5E10381A /* QuartzCore.framework in Frameworks */,
+				7A85DDA82105465191090E1CD3FCDC00 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0641C79A204EF7B8D3257207C1DAE3F8 /* Products */ = {
+		196C9A071518B6D891996540A4665187 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D2E59FB0BDB0D9E09490910E88CC4FB0 /* Pods_FidelioAPP.framework */,
-				4B562E40A82BF9C63DD9BB514AA16B8E /* QRCodeReader.framework */,
-				F760134048F07CE300B3A0363983AD10 /* SwiftIcons.bundle */,
-				D1E779DF18B127024AB0F24396B099D3 /* SwiftIcons.framework */,
+				2D15710D532DC3FE1D27BD12C0CEAC11 /* Dripicons.ttf */,
+				6C7F163EA22AE6A538DD5F2F3860C7CF /* Emoji.ttf */,
+				028DF56FEC892A5A91273E52F199B405 /* FontAwesome.ttf */,
+				233939D03C5D2F2309C9AEC7096D41C5 /* Icofont.ttf */,
+				7DF12CD8A8C91A486F54453809F0FDC7 /* Ionicons.ttf */,
+				A05529C1E16A2D009268CFA74A289926 /* Linearicons.ttf */,
+				9C9D6C506EA914AB97CEB089D36D8D60 /* MapIcons.ttf */,
+				8B92F5DE4F346480CC2A31551F664DB6 /* MaterialIcons.ttf */,
+				2948AD01A2ABEBFD899E894302A57B9D /* OpenIconic.ttf */,
+				D5F6A837DADA7EB0EB66E9D64D86D74A /* Stateface.ttf */,
+				9392305CA064A26D309CD0CDB4CC17B3 /* WeatherIcons.ttf */,
 			);
-			name = Products;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1C61614A7A9BBB7D846037B1C76946B9 /* MarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				304308FDF8A7C8D28DA45AADD7B3EE74 /* Support Files */,
+				D7F1CBFBF4B6B46E562BB59DC15DB501 /* Swift */,
+			);
+			name = MarqueeLabel;
+			path = MarqueeLabel;
+			sourceTree = "<group>";
+		};
+		283FA885FF0F42B4390AAD0411A6BFE1 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				F9F8B9E0AF6C0BE63934227784D74DE9 /* Constraint.swift */,
+				BF1A330CF4431F587527B62CE1B7CBAD /* ConstraintAttributes.swift */,
+				817E6063BA1C885130E9E641C6FE9189 /* ConstraintConfig.swift */,
+				C4ECA7D3A18600D6A8AAE446F108A745 /* ConstraintConstantTarget.swift */,
+				F950690A916D04E2B0A59C66055D687B /* ConstraintDescription.swift */,
+				1CD34B4300D0D20C90049BCF0ACF2D03 /* ConstraintDSL.swift */,
+				993F9871C29896C0872B94670C3E9DB1 /* ConstraintInsets.swift */,
+				0F10A6DE735956F14D0C4E6F42284F53 /* ConstraintInsetTarget.swift */,
+				F76DDC9C1285384EC363821CA7FA00AE /* ConstraintItem.swift */,
+				B8E92C10718D05936AE8BC274A55BC46 /* ConstraintLayoutGuide.swift */,
+				4BB8EC94D4CF96811F5476E358869F9C /* ConstraintLayoutGuide+Extensions.swift */,
+				F5433470A690A620638BAC5E96C6A6EB /* ConstraintLayoutGuideDSL.swift */,
+				1A7940DA4083E9DF2C1C59AA5B2C098C /* ConstraintLayoutSupport.swift */,
+				DEE6F7846FD318E3C9B501E6027D017A /* ConstraintLayoutSupportDSL.swift */,
+				F97313EFE2A0ADD83FD21A0FCDC3E241 /* ConstraintMaker.swift */,
+				D000D2BF1698C5C46F6A042FAB4F5BED /* ConstraintMakerEditable.swift */,
+				7ED203C75B44C14351287A4E7998F31A /* ConstraintMakerExtendable.swift */,
+				F82DFC5389F3AD71721E3651A39DCA24 /* ConstraintMakerFinalizable.swift */,
+				67064E852061B6A1D9D3121C1224A53F /* ConstraintMakerPriortizable.swift */,
+				0FC0BA90B78E0553073F4749A14E0CBF /* ConstraintMakerRelatable.swift */,
+				1504878ABE84500EDAA362E0C1FDAC4A /* ConstraintMultiplierTarget.swift */,
+				7D5DECABA4ED0BE2E67354369151D78B /* ConstraintOffsetTarget.swift */,
+				B555D0FB72F6C1271B3400685BB32E46 /* ConstraintPriority.swift */,
+				717E836BF089A1DA605CFEEF7F4FB8E8 /* ConstraintPriorityTarget.swift */,
+				70A1336B9B3DFD6F8AFF373C60A7889A /* ConstraintRelatableTarget.swift */,
+				20C417CB0A2BE1474B51AEA2DBBBD043 /* ConstraintRelation.swift */,
+				F57B18A474443D2311BC027A42A891F8 /* ConstraintView.swift */,
+				7948B72C5C1A41AF8A7940C17BC9D453 /* ConstraintView+Extensions.swift */,
+				F077FA7DABB2E544B17E7F28144EAD2D /* ConstraintViewDSL.swift */,
+				ECCFAC226B0CC5E314BECE202FA28B33 /* Debugging.swift */,
+				66DD560CE7E5F1DA0FCE0385F31D40DC /* LayoutConstraint.swift */,
+				BE76C7298ED56A7D4BE327F1DF2E2128 /* LayoutConstraintItem.swift */,
+				CFFCD0E4BE382711E1E8ED4AED04124D /* Typealiases.swift */,
+				1D63A4DF6EEAAF1321D264F125C90B2F /* UILayoutSupport+Extensions.swift */,
+				FF27D0202FCD86E6BB146FB5BEEF5320 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		2ABCF0C91CA95F0A468EF12411247432 /* QRCodeReader.swift */ = {
+			isa = PBXGroup;
+			children = (
+				81C877950159CF952EE3FE9542044CAA /* QRCodeReader.swift */,
+				1404D9500FE23344935BE27B025BD13F /* QRCodeReaderResult.swift */,
+				908C02DBAAC3C9ABD04A182D87AEF634 /* QRCodeReaderView.swift */,
+				D30B63C99045A4E7BDA4262B031C097A /* QRCodeReaderViewContainer.swift */,
+				74854D69DAC7242FE64AF4AAB74AB9CC /* QRCodeReaderViewController.swift */,
+				49C1D67AA26CA7CBE227DF79009FB836 /* QRCodeReaderViewControllerBuilder.swift */,
+				5EC5A0F60D9E75DE1F189B8F35F5392B /* QRCodeReaderViewControllerDelegate.swift */,
+				530D44BB4BB6B1030CDEA249026A4C80 /* ReaderOverlayView.swift */,
+				704C1C40F0574BE67B2D619D563CD307 /* SwitchCameraButton.swift */,
+				3AB332DD1F52CDE8633FA89E43A25B7A /* ToggleTorchButton.swift */,
+				B8C0FC97A307876393014E7D5359E2EF /* Support Files */,
+			);
+			name = QRCodeReader.swift;
+			path = QRCodeReader.swift;
 			sourceTree = "<group>";
 		};
 		2C9EFF71E8512860A69858948A9BCB55 /* Pods-FidelioAPP */ = {
@@ -186,51 +454,120 @@
 			path = "Target Support Files/Pods-FidelioAPP";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		304308FDF8A7C8D28DA45AADD7B3EE74 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB9C43F4BAD2992BD9EE60E0C1AC390B /* iOS */,
+				2AFFAF4D4533A71BC37F3621A0986B03 /* Info.plist */,
+				D59B8D2CD9935BC5A64D44EC6AA09567 /* MarqueeLabel.modulemap */,
+				E6E9E529D65D32D9631C2E4E34A70A1D /* MarqueeLabel.xcconfig */,
+				CD65E26B0AD272589260CA6D4B908A66 /* MarqueeLabel-dummy.m */,
+				B055985EF04591B2BE376B90468ABE3D /* MarqueeLabel-prefix.pch */,
+				1913A640211EFCB5074E82ED209B3044 /* MarqueeLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarqueeLabel";
+			sourceTree = "<group>";
+		};
+		418BEC8CF0F0BF3D9D62272DA8538F7B /* SwiftIcons */ = {
+			isa = PBXGroup;
+			children = (
+				649E934378708012CC266A006D565116 /* SwiftIcons.swift */,
+				196C9A071518B6D891996540A4665187 /* Resources */,
+				6D736543D9F808978D8EF45320186441 /* Support Files */,
+			);
+			name = SwiftIcons;
+			path = SwiftIcons;
+			sourceTree = "<group>";
+		};
+		4C8734FE53939A2E807CCF47D6A00CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7352FBD604A89AFA705ADE0752168778 /* MarqueeLabel.framework */,
+				BDC0815A6E995FEAE336B4B6C1F6F0BA /* NotificationBannerSwift.framework */,
+				A8CBF5E33B4699F52886C68C0C7672D3 /* Pods_FidelioAPP.framework */,
+				E65A6C262ADCDA5657FA492DD7AD90D6 /* QRCodeReader.framework */,
+				1D40670B0D8022E538F4F253C0DE0975 /* SnapKit.framework */,
+				053057D0D8286A1D70E46E0233BB8B5F /* SwiftIcons.bundle */,
+				5AE9D5003C26AB64640A4C2FBC6AB2F2 /* SwiftIcons.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60BE5F8D0A29F4BAD7DD9A1C6B68063D /* NotificationBannerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2EAD69F38131B12E5E3F29806DA04288 /* BannerColors.swift */,
+				EEFD0CE1FC4A5D24A174795D1440BBB1 /* BannerHapticGenerator.swift */,
+				E548EB5238FCD6D9B5BC8C6391A0A23B /* BannerPositionFrame.swift */,
+				5F47C9BCE946242D2FC49F480E9211E4 /* BannerStyle.swift */,
+				E6172E0D01CC1C241772C31C34C115D3 /* BaseNotificationBanner.swift */,
+				2927B39E46D8E705B737D652A6A16C23 /* NotificationBanner.swift */,
+				5092DD9B72F05E1D6589D4A2155E967D /* NotificationBannerQueue.swift */,
+				6A970215C58CE07A32824155205761E6 /* NotificationBannerUtilities.swift */,
+				04BF3F0A8E5D0ED945F1623CBDD1EE3E /* StatusBarNotificationBanner.swift */,
+				FE0E5459D5E5BB4AE1136299FD7F8E97 /* Support Files */,
+			);
+			name = NotificationBannerSwift;
+			path = NotificationBannerSwift;
+			sourceTree = "<group>";
+		};
+		6153B752BB8C7427A8E4AFD240FEAC7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5648B0B58D9E7DE9D459E6731B86882 /* MarqueeLabel.framework */,
+				A2AE7DA20F13D48E5292B4B4CC0A8644 /* SnapKit.framework */,
+				8EC7A2147EDFB3F4103A1FAF90782F23 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6AF8535E84E37E7D173395E940C2F850 /* QRCodeReader.swift */ = {
+		6A1A45D64198616CB1617871D6F5DCCE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3A1FB0C4DB2F29353806117D36BFA074 /* QRCodeReader.swift */,
-				67060354942CBA2BCEE599A191154DA1 /* QRCodeReaderResult.swift */,
-				52A530F8252AF0FDFC89808F89AB469E /* QRCodeReaderView.swift */,
-				95661F24587539409979C4ABDA9E95AF /* QRCodeReaderViewContainer.swift */,
-				EE31A8384F14767760C3C6A7AA0B2C8A /* QRCodeReaderViewController.swift */,
-				08B2F2C0C9051C9FE0CCC088FF21B948 /* QRCodeReaderViewControllerBuilder.swift */,
-				CC9C3EE289460302F6B1AC94A9F7B64E /* QRCodeReaderViewControllerDelegate.swift */,
-				588D000A41A9285515176A7533A70F8F /* ReaderOverlayView.swift */,
-				FAB52B85CED8AA99D0DC4A63BAECBCBB /* SwitchCameraButton.swift */,
-				2AF2A53399C871A421195B3D68E625E2 /* ToggleTorchButton.swift */,
-				B0C383569415B6D0C035416612756E8E /* Support Files */,
+				1C61614A7A9BBB7D846037B1C76946B9 /* MarqueeLabel */,
+				60BE5F8D0A29F4BAD7DD9A1C6B68063D /* NotificationBannerSwift */,
+				2ABCF0C91CA95F0A468EF12411247432 /* QRCodeReader.swift */,
+				283FA885FF0F42B4390AAD0411A6BFE1 /* SnapKit */,
+				418BEC8CF0F0BF3D9D62272DA8538F7B /* SwiftIcons */,
 			);
-			path = QRCodeReader.swift;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		77DE8A856685ED6E1B37A27825D5DC29 /* SwiftIcons */ = {
+		6D736543D9F808978D8EF45320186441 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				27FE0A5B0A1CACD4149EE38E24018DAD /* SwiftIcons.swift */,
-				F2985384007F60FCDF64420814A99DB4 /* Resources */,
-				D78818B658175F21315A9465CED32205 /* Support Files */,
+				50B28B1EB51ED359BE459F80B1DE7804 /* Info.plist */,
+				F87A2D26CCEDEDA27B350897146ACD4C /* ResourceBundle-SwiftIcons-Info.plist */,
+				EB7AF4D06A13A0C12D372C06619FB7DC /* SwiftIcons.modulemap */,
+				67ADE4DCA782FC38CA48E910414AF9C1 /* SwiftIcons.xcconfig */,
+				D78528F9757D63EEDF447D39B2EA5CF8 /* SwiftIcons-dummy.m */,
+				2B0692AEE60308CDC5D8D1ED5D40587E /* SwiftIcons-prefix.pch */,
+				45014D67495F2455DD3E08A661759439 /* SwiftIcons-umbrella.h */,
 			);
-			path = SwiftIcons;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftIcons";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				D588A327844B48AE340AF31DC0B00356 /* Pods */,
-				0641C79A204EF7B8D3257207C1DAE3F8 /* Products */,
+				6153B752BB8C7427A8E4AFD240FEAC7F /* Frameworks */,
+				6A1A45D64198616CB1617871D6F5DCCE /* Pods */,
+				4C8734FE53939A2E807CCF47D6A00CAA /* Products */,
 				AB0CA2F9E60E9D787B59FA651EBCD301 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8EC7A2147EDFB3F4103A1FAF90782F23 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3CD170ADE00598DE81DA280691C94265 /* AVFoundation.framework */,
+				CB036D129CA4057AD468E5381729EC5A /* Foundation.framework */,
+				E1C719915ED79014A1BD4DF25F2E7108 /* QuartzCore.framework */,
+				7C0664EB7BF474674388D2B1073F5733 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		AB0CA2F9E60E9D787B59FA651EBCD301 /* Targets Support Files */ = {
@@ -241,127 +578,173 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AB9C43F4BAD2992BD9EE60E0C1AC390B /* iOS */ = {
+		B8C0FC97A307876393014E7D5359E2EF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				840966EAD0718963750ABB9F4A6EB218 /* AVFoundation.framework */,
-				2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		B0C383569415B6D0C035416612756E8E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4A79EB6A689A8B6C6DB8658BD7A3ED3F /* Info.plist */,
-				EB7C13198878025BB0566964B6C43083 /* QRCodeReader.swift.modulemap */,
-				C5E33DCB2773CC2C20090137F8F48B0D /* QRCodeReader.swift.xcconfig */,
-				9C7BBA56380ABBA1FA868468225BD4EA /* QRCodeReader.swift-dummy.m */,
-				11D957DE0DDE4EDB044B3ACB82B0A961 /* QRCodeReader.swift-prefix.pch */,
-				ACF4B68D865372329CAF7A1CE5935254 /* QRCodeReader.swift-umbrella.h */,
+				7F4B04A59B94C9701F9B6578F669F776 /* Info.plist */,
+				7486BE6260CBB3A2393257142AFB72C2 /* QRCodeReader.swift.modulemap */,
+				434233BB65B42C7E396644CD23800CB9 /* QRCodeReader.swift.xcconfig */,
+				A6CBCF56B12A1C14078F00A7110DA338 /* QRCodeReader.swift-dummy.m */,
+				6BD481C18C61E2681C5F2010B1C7AD75 /* QRCodeReader.swift-prefix.pch */,
+				E40D04F3D2765AE9979C471BC3EBE9BD /* QRCodeReader.swift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/QRCodeReader.swift";
 			sourceTree = "<group>";
 		};
-		D588A327844B48AE340AF31DC0B00356 /* Pods */ = {
+		D7F1CBFBF4B6B46E562BB59DC15DB501 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				6AF8535E84E37E7D173395E940C2F850 /* QRCodeReader.swift */,
-				77DE8A856685ED6E1B37A27825D5DC29 /* SwiftIcons */,
+				55D44A1DF45701E526B9910379CA0A19 /* MarqueeLabel.swift */,
 			);
-			name = Pods;
+			name = Swift;
 			sourceTree = "<group>";
 		};
-		D78818B658175F21315A9465CED32205 /* Support Files */ = {
+		FE0E5459D5E5BB4AE1136299FD7F8E97 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4B1C7DF44897FE826DFFE41AE0161AF3 /* Info.plist */,
-				BFC10E4AB2798584F78004C597D1653B /* ResourceBundle-SwiftIcons-Info.plist */,
-				EEC49227BD49F73C90A5658AA55FCA89 /* SwiftIcons.modulemap */,
-				AA000A65EA2618404C8D6A79A946E554 /* SwiftIcons.xcconfig */,
-				77D026B031723FDA3A241962B34DA5A1 /* SwiftIcons-dummy.m */,
-				F35E86367F49EDCA5F1C0D4B36C05F00 /* SwiftIcons-prefix.pch */,
-				B53EA3D6F3828920E37C1A9E521E2609 /* SwiftIcons-umbrella.h */,
+				A37A1FE54EA82AD751868CF54710441E /* Info.plist */,
+				122E3E8451D6528E84426B8AFFC827D1 /* NotificationBannerSwift.modulemap */,
+				DB405956976AA303E062984B4FE815ED /* NotificationBannerSwift.xcconfig */,
+				FBA315F5E2083954A73796512EF36187 /* NotificationBannerSwift-dummy.m */,
+				54203A9E67EE6A91E823EAECED066014 /* NotificationBannerSwift-prefix.pch */,
+				58404AE9E60D46B22A0248BA06F3ECF7 /* NotificationBannerSwift-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwiftIcons";
+			path = "../Target Support Files/NotificationBannerSwift";
 			sourceTree = "<group>";
 		};
-		F2985384007F60FCDF64420814A99DB4 /* Resources */ = {
+		FF27D0202FCD86E6BB146FB5BEEF5320 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DD3D8BCB0BD12A8B6CB1DD4E406606F4 /* Dripicons.ttf */,
-				7C518F57399570CA8286CE4B8744C80A /* Emoji.ttf */,
-				F1012BCCEEBEACF504A6AA87B2376865 /* Icofont.ttf */,
-				77823BBE8AAF1A2C1C67B3F921F43CDC /* Ionicons.ttf */,
-				9594FB4920CC4C24001FCF0B /* FontAwesome.ttf */,
-				FA0CC13B39103F1354E02E0D94BF6488 /* Linearicons.ttf */,
-				39FF64369818D463A1CFF942195B01D6 /* MapIcons.ttf */,
-				3B429B743FE9FF1A88D720CBEFD66651 /* MaterialIcons.ttf */,
-				9594FB4820CC4C15001FCF0B /* OpenIconic.ttf */,
-				4B07D3FEDBE8640D78ABF72EFC861FF5 /* Stateface.ttf */,
-				DCF26C4B27F3B7232CECADFD2FEFDCED /* WeatherIcons.ttf */,
+				06B2ADD875033087F353F681AB68F6FA /* Info.plist */,
+				578EE678186D7AE875DB2D806D799A76 /* SnapKit.modulemap */,
+				2F14AA673E11F4702FAB716FC753F174 /* SnapKit.xcconfig */,
+				A9422F06BF69491176B66F2CC41675D7 /* SnapKit-dummy.m */,
+				F403C74A6EE69653CB5A1F4CF656942A /* SnapKit-prefix.pch */,
+				0BD0EA9C66CC9F3153372A342A570ED1 /* SnapKit-umbrella.h */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A587B83DBA4BC0A149291F72110E7E21 /* Headers */ = {
+		43EB1A99083FB7B9D682DA6A3AA50342 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E1ED46BA9C6C2E50A4095264814BF9C /* Pods-FidelioAPP-umbrella.h in Headers */,
+				7AD998D08A00810B7D643BBFA8AFD5A2 /* SwiftIcons-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB775094C487D712A322E9F95C2710DD /* Headers */ = {
+		89A1B20459098F207B4AA0F3E8F9BE57 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BEAA18ABCBF36EF3A23E7662C66384E /* SwiftIcons-umbrella.h in Headers */,
+				29A3B5C0505F684217B49C8C3D9E9833 /* NotificationBannerSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBD797171242E7ECD3B53F2CF38B1865 /* Headers */ = {
+		AC4CC9FD659266292E00B030BE3557AE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC99E00F990E8F22865F620F656E7AA /* QRCodeReader.swift-umbrella.h in Headers */,
+				DB923051D121B166B855AF1C0809BAEF /* MarqueeLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E324995C674EB4670B4614776CEFB4B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3076539AEA2F63B8156019D9BC8930B /* Pods-FidelioAPP-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE849B214E94BA9510E3B62503F219A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E9775DA243DC6375DDCC1A73040F0D /* QRCodeReader.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC26CA4227ECB5E8207F625C780A4B55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285A5E2E0E65AD99D88AEF999D9CB135 /* SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2B39DC083F0AB61EBA77BBCC013EC93F /* Pods-FidelioAPP */ = {
+		16B66C4B0E5D35B2F1155B6262C42CF5 /* SnapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 867BFB90A0CBFA44A9216877908423FD /* Build configuration list for PBXNativeTarget "Pods-FidelioAPP" */;
+			buildConfigurationList = 41080EFC9A72590CDE51AECF389F7CEC /* Build configuration list for PBXNativeTarget "SnapKit" */;
 			buildPhases = (
-				BB3A7EAE75B89FC5DC93E892F5EC5C6E /* Sources */,
-				6A8CDA869DBF4229C0AA841C61D65CB7 /* Frameworks */,
-				A587B83DBA4BC0A149291F72110E7E21 /* Headers */,
+				011B369B953189971F31A470393ADA01 /* Sources */,
+				DA46EE51849FC74AB0341C8AF2756F85 /* Frameworks */,
+				FC26CA4227ECB5E8207F625C780A4B55 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8B3936B49D9E25482EFFF4222C804E65 /* PBXTargetDependency */,
-				F8BAE92E78D54C4CBA0321AD746A85CE /* PBXTargetDependency */,
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 1D40670B0D8022E538F4F253C0DE0975 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		320AD47B0C6BA014D301395D3BFC8FB6 /* MarqueeLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB93BA3C12E3426B5019CB531E1C08DC /* Build configuration list for PBXNativeTarget "MarqueeLabel" */;
+			buildPhases = (
+				E424089A1B4CDB88E747B5F58F5C64AC /* Sources */,
+				F5881BC4ADA6E767FAC6CDFC9A796C14 /* Frameworks */,
+				AC4CC9FD659266292E00B030BE3557AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarqueeLabel;
+			productName = MarqueeLabel;
+			productReference = 7352FBD604A89AFA705ADE0752168778 /* MarqueeLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F8F6FC39D6D204DE08E32D621729BEE /* Pods-FidelioAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6958D12320680403BA338B40FEC40DA /* Build configuration list for PBXNativeTarget "Pods-FidelioAPP" */;
+			buildPhases = (
+				7E546CE0ED4C19DA4398331C3B4B497C /* Sources */,
+				B169D579610115B1274BAFF1C561D157 /* Frameworks */,
+				E324995C674EB4670B4614776CEFB4B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625C34DBD5690C51F9DE1FB9EDD40D70 /* PBXTargetDependency */,
+				CC099435F5703FA1817150F6F994003D /* PBXTargetDependency */,
+				F526060603280D3A51445F8ABC982E28 /* PBXTargetDependency */,
+				7155A80A74410DFBF0492B706B7CB487 /* PBXTargetDependency */,
+				D0737DCBC176149F7550C5C8CBA4CDEF /* PBXTargetDependency */,
 			);
 			name = "Pods-FidelioAPP";
 			productName = "Pods-FidelioAPP";
-			productReference = D2E59FB0BDB0D9E09490910E88CC4FB0 /* Pods_FidelioAPP.framework */;
+			productReference = A8CBF5E33B4699F52886C68C0C7672D3 /* Pods_FidelioAPP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7D033947C748235D68BCB4CD467436D0 /* SwiftIcons-SwiftIcons */ = {
+		B4A5E5A0D8C994FC9EE897B8D14DD825 /* SwiftIcons-SwiftIcons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EE97596B84623B37870F927CA63D6EC /* Build configuration list for PBXNativeTarget "SwiftIcons-SwiftIcons" */;
+			buildConfigurationList = AFDB679A807D4EDDDE11BD5226917E21 /* Build configuration list for PBXNativeTarget "SwiftIcons-SwiftIcons" */;
 			buildPhases = (
-				89CA3AAC8F62C8A49D5A61C86B00EBD8 /* Sources */,
-				ED57EB1BA04EFF5BE333992A4CD7D0D0 /* Frameworks */,
-				019D4AEB5CCE99EAC9ACE1D0D4BA1508 /* Resources */,
+				B3644B6494FEDC862B747053C7F64999 /* Sources */,
+				980657B3AFFF719720720A83C887BB2C /* Frameworks */,
+				54B681B113F8FE67F61F3A9E49160374 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -369,35 +752,16 @@
 			);
 			name = "SwiftIcons-SwiftIcons";
 			productName = "SwiftIcons-SwiftIcons";
-			productReference = F760134048F07CE300B3A0363983AD10 /* SwiftIcons.bundle */;
+			productReference = 053057D0D8286A1D70E46E0233BB8B5F /* SwiftIcons.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		7EF98D36B1D4AFDC7C9B1E2CA464E861 /* SwiftIcons */ = {
+		BAABF157DC256429D5409E49E8656CD7 /* QRCodeReader.swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 509D361454767A6C0BF46E3A4CC4DF5E /* Build configuration list for PBXNativeTarget "SwiftIcons" */;
+			buildConfigurationList = 00A45C63F42C51E4FE73882299D1B1C5 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */;
 			buildPhases = (
-				9756AA609755BD49B57B8B8BF2730120 /* Sources */,
-				F9B73C497A85FE24933986A8BF5850B4 /* Frameworks */,
-				3AAA077BB9D6B2DA8CFC934ECD8E592A /* Resources */,
-				BB775094C487D712A322E9F95C2710DD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2170BA60BFE8EEB664DBB889495365E5 /* PBXTargetDependency */,
-			);
-			name = SwiftIcons;
-			productName = SwiftIcons;
-			productReference = D1E779DF18B127024AB0F24396B099D3 /* SwiftIcons.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D71D3D0DBE5BC1AA1C7C4E1480EC63F1 /* QRCodeReader.swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F978988675F9E11C99CCF845DF0B73AF /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */;
-			buildPhases = (
-				7F3DDF50DD6008C20D32D2669116A6A3 /* Sources */,
-				D46EADD653573F5540F0DC2547BF0313 /* Frameworks */,
-				BBD797171242E7ECD3B53F2CF38B1865 /* Headers */,
+				733F32B54DE025B827A11B42B4F03F07 /* Sources */,
+				871AED9804926D290E7F101533D7E7CE /* Frameworks */,
+				EBE849B214E94BA9510E3B62503F219A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -405,7 +769,45 @@
 			);
 			name = QRCodeReader.swift;
 			productName = QRCodeReader.swift;
-			productReference = 4B562E40A82BF9C63DD9BB514AA16B8E /* QRCodeReader.framework */;
+			productReference = E65A6C262ADCDA5657FA492DD7AD90D6 /* QRCodeReader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC662CBB66DFBF297E1AE8050DE699D2 /* NotificationBannerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85F33EFC2A1C562D57BEA6DD2C4C12FD /* Build configuration list for PBXNativeTarget "NotificationBannerSwift" */;
+			buildPhases = (
+				E7DB9AEE94C3F71EC9F6D7DF604AAD60 /* Sources */,
+				CC5223C0CB0508368363F1D4E858C988 /* Frameworks */,
+				89A1B20459098F207B4AA0F3E8F9BE57 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				669EA66A29D12AB6C97884DD4AF18FF6 /* PBXTargetDependency */,
+				3F61B91A1EB8F0503F8DDC1B180D3C00 /* PBXTargetDependency */,
+			);
+			name = NotificationBannerSwift;
+			productName = NotificationBannerSwift;
+			productReference = BDC0815A6E995FEAE336B4B6C1F6F0BA /* NotificationBannerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF6964B5863CEA48A2BB35C7F4475725 /* SwiftIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2798B4A98457E9C9D1A7F8FFD040C7C /* Build configuration list for PBXNativeTarget "SwiftIcons" */;
+			buildPhases = (
+				4F01B981D81CBED52F7AAFA8CF52309F /* Sources */,
+				3B6FE3D3BCA7C32542C1041E4CC7818A /* Frameworks */,
+				4E939250CB95179FFD580CD8770CE330 /* Resources */,
+				43EB1A99083FB7B9D682DA6A3AA50342 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7254E83C4C1F51445BF55405E3179B91 /* PBXTargetDependency */,
+			);
+			name = SwiftIcons;
+			productName = SwiftIcons;
+			productReference = 5AE9D5003C26AB64640A4C2FBC6AB2F2 /* SwiftIcons.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -425,117 +827,218 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0641C79A204EF7B8D3257207C1DAE3F8 /* Products */;
+			productRefGroup = 4C8734FE53939A2E807CCF47D6A00CAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B39DC083F0AB61EBA77BBCC013EC93F /* Pods-FidelioAPP */,
-				D71D3D0DBE5BC1AA1C7C4E1480EC63F1 /* QRCodeReader.swift */,
-				7EF98D36B1D4AFDC7C9B1E2CA464E861 /* SwiftIcons */,
-				7D033947C748235D68BCB4CD467436D0 /* SwiftIcons-SwiftIcons */,
+				320AD47B0C6BA014D301395D3BFC8FB6 /* MarqueeLabel */,
+				BC662CBB66DFBF297E1AE8050DE699D2 /* NotificationBannerSwift */,
+				8F8F6FC39D6D204DE08E32D621729BEE /* Pods-FidelioAPP */,
+				BAABF157DC256429D5409E49E8656CD7 /* QRCodeReader.swift */,
+				16B66C4B0E5D35B2F1155B6262C42CF5 /* SnapKit */,
+				DF6964B5863CEA48A2BB35C7F4475725 /* SwiftIcons */,
+				B4A5E5A0D8C994FC9EE897B8D14DD825 /* SwiftIcons-SwiftIcons */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		019D4AEB5CCE99EAC9ACE1D0D4BA1508 /* Resources */ = {
+		4E939250CB95179FFD580CD8770CE330 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A31478B49B3EC4F4173C0AA6022AC87 /* Dripicons.ttf in Resources */,
-				9594FB4A20CC4C8D001FCF0B /* FontAwesome.ttf in Resources */,
-				A0ECF5406200D834EC97E32210A03ADC /* Emoji.ttf in Resources */,
-				BB681FBF0AA65DCBEFCB7397DC28E652 /* Icofont.ttf in Resources */,
-				604684E483827F6D2492822B0BEACD7A /* Ionicons.ttf in Resources */,
-				099C597C70BBD4125AB08EF365AE5674 /* Linearicons.ttf in Resources */,
-				84F3E8B39737E657BFCA44A8FA8DE26E /* MapIcons.ttf in Resources */,
-				D255E4E2CBD6D88CA5F7AABE03C26079 /* MaterialIcons.ttf in Resources */,
-				9594FB4B20CC4C91001FCF0B /* OpenIconic.ttf in Resources */,
-				9E9C28B6E20D3592899FD455251867EB /* Stateface.ttf in Resources */,
-				ABC18650D9A0950CB4B0B81E45E45F1E /* WeatherIcons.ttf in Resources */,
+				952DDB6C2A3E72471967181E4205F322 /* SwiftIcons.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AAA077BB9D6B2DA8CFC934ECD8E592A /* Resources */ = {
+		54B681B113F8FE67F61F3A9E49160374 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF026F5447ACF94E60AC5217FBDF67C /* SwiftIcons.bundle in Resources */,
+				BE442A138B7D1FE4DFE7C0FD525A6E0B /* Dripicons.ttf in Resources */,
+				73D88283FE0772084CF3BF830F084E16 /* Emoji.ttf in Resources */,
+				2650F659DA92C163115D32025D7B8B0E /* FontAwesome.ttf in Resources */,
+				12B50F80982AF01A28DF516E1803EB5F /* Icofont.ttf in Resources */,
+				93DC99B93615D748ADE3E04E634678D6 /* Ionicons.ttf in Resources */,
+				C40F0B18CFD24829915F70A03BE7039E /* Linearicons.ttf in Resources */,
+				B136D7ECEAE3B173E3685234A7D2CBB6 /* MapIcons.ttf in Resources */,
+				53D52A174EC876E58D2A18031B9F51D2 /* MaterialIcons.ttf in Resources */,
+				B11E7135157934C4B57EDBFF39315B53 /* OpenIconic.ttf in Resources */,
+				6B04B40DC18243C2340F20A2A13471AA /* Stateface.ttf in Resources */,
+				4FB4503F67AA2D2E63BA2B043B2F35F3 /* WeatherIcons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7F3DDF50DD6008C20D32D2669116A6A3 /* Sources */ = {
+		011B369B953189971F31A470393ADA01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				206D9556460E52F7FCCCEB1EA03403E6 /* QRCodeReader.swift in Sources */,
-				D008DB587395A4B65205B9679425970E /* QRCodeReader.swift-dummy.m in Sources */,
-				29FD268BFE7E29E3D78643B807E2DF08 /* QRCodeReaderResult.swift in Sources */,
-				745CF8537F980BC47BC8F380E16BE5AB /* QRCodeReaderView.swift in Sources */,
-				0EBA6DB6565E96D5F2FC4ADBCA1263BC /* QRCodeReaderViewContainer.swift in Sources */,
-				7722AB5EFA0E1457E7F5CD7DCB180DBE /* QRCodeReaderViewController.swift in Sources */,
-				0B35610B93D8A5687F30B7F659CB40D0 /* QRCodeReaderViewControllerBuilder.swift in Sources */,
-				41D69868C6777D4F1D31A41BF2B56C9C /* QRCodeReaderViewControllerDelegate.swift in Sources */,
-				933AB8965608254D31DF584916286389 /* ReaderOverlayView.swift in Sources */,
-				EF2BC0582BA9127F2482372F37C6EBC7 /* SwitchCameraButton.swift in Sources */,
-				3DABC2333B02912333A2C762112DEAEF /* ToggleTorchButton.swift in Sources */,
+				D554B8F6AFDC65B862C5EBE7191A27BB /* Constraint.swift in Sources */,
+				BEA971ED37B4933878CC144B9BE28F87 /* ConstraintAttributes.swift in Sources */,
+				923214FFA0FDFEE4156C940898DC7015 /* ConstraintConfig.swift in Sources */,
+				C8EBAB053AEAF8D0DAB59CD52DE7DF3C /* ConstraintConstantTarget.swift in Sources */,
+				254389332A82BEA45992F661F5B3DD56 /* ConstraintDescription.swift in Sources */,
+				F81DC3B381B0C486CD86753F6682192C /* ConstraintDSL.swift in Sources */,
+				2B889FAA739FD519B71E01A37AA8B0EA /* ConstraintInsets.swift in Sources */,
+				E23841A7779278B2284EDC2B0715E8AE /* ConstraintInsetTarget.swift in Sources */,
+				B3C99FE491A16B8E75CDC1F6454AAAB1 /* ConstraintItem.swift in Sources */,
+				3D0941637832D2ABCFB4FCE55DFA75BF /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				B1DF58FE1558D4FFF491519D4E1BC598 /* ConstraintLayoutGuide.swift in Sources */,
+				3A2B89595BDE2A936B16A0BF577A13B9 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				D4D32FFE1DCFC00C5C8D39D514A2BF57 /* ConstraintLayoutSupport.swift in Sources */,
+				90F438528619977EE54D93F123FAAB85 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				27EBB2018CBCA7FAD1784A4FFA1B09F5 /* ConstraintMaker.swift in Sources */,
+				1EED1CBCAA8DDEE44D2BA3A95240E929 /* ConstraintMakerEditable.swift in Sources */,
+				C866131CE9297DB0472B225BF953A697 /* ConstraintMakerExtendable.swift in Sources */,
+				F6C79EF0FC967B1A27B66AE134AC1A7D /* ConstraintMakerFinalizable.swift in Sources */,
+				C4121571F5F7C6242E4857715F615C4C /* ConstraintMakerPriortizable.swift in Sources */,
+				FCE9C18F23B6C1252904F6982E1D42ED /* ConstraintMakerRelatable.swift in Sources */,
+				F79E9BC1FE2EFEC5E96C61DE637466A0 /* ConstraintMultiplierTarget.swift in Sources */,
+				F78E669A0D4F3AA7CF646D975F3C4D46 /* ConstraintOffsetTarget.swift in Sources */,
+				27D54A2B7F73E61E6F3DC8B0F41939FA /* ConstraintPriority.swift in Sources */,
+				4692387FDE49B5CBC9D1339E1636EB6A /* ConstraintPriorityTarget.swift in Sources */,
+				8CB13A95CE0597C93931A23CAAB9C040 /* ConstraintRelatableTarget.swift in Sources */,
+				58BC968278BF35B00F9A574D79D2B8CD /* ConstraintRelation.swift in Sources */,
+				C8BD10458C541DE11F5992B9C482F8B3 /* ConstraintView+Extensions.swift in Sources */,
+				F35C987287A460E550E405674861E9FB /* ConstraintView.swift in Sources */,
+				AFD1EAC48C02F48CE6AA07D33AA5B356 /* ConstraintViewDSL.swift in Sources */,
+				50DE060C2698A7433C9EC43AD83C863C /* Debugging.swift in Sources */,
+				B67EFAEFCB60963095904E8B0EDB1167 /* LayoutConstraint.swift in Sources */,
+				451410B462A1BD80EE492CA014D3774D /* LayoutConstraintItem.swift in Sources */,
+				F8DD79B53005ACAFA84FCA6B68E30C60 /* SnapKit-dummy.m in Sources */,
+				068E8FEEEF03C90C4FE9520009B3A016 /* Typealiases.swift in Sources */,
+				974CF452F9D3FE6FF3E697DD864EBD13 /* UILayoutSupport+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89CA3AAC8F62C8A49D5A61C86B00EBD8 /* Sources */ = {
+		4F01B981D81CBED52F7AAFA8CF52309F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C2EC2382D28B8E146E4DE3F8A2A057 /* SwiftIcons-dummy.m in Sources */,
+				7D2852CB4E5AE6C5488D3D449B8A3F63 /* SwiftIcons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733F32B54DE025B827A11B42B4F03F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD73F79789EEE788B878AD690347A2C6 /* QRCodeReader.swift in Sources */,
+				2E2A58BFF7A41A915F7C1BDC2E37DA45 /* QRCodeReader.swift-dummy.m in Sources */,
+				D50AA975B6D52B1475165F7448098702 /* QRCodeReaderResult.swift in Sources */,
+				6F256D56AAB095A73D96EE102DC98645 /* QRCodeReaderView.swift in Sources */,
+				1A0D1F19F14E19D81170C67A89DAF11C /* QRCodeReaderViewContainer.swift in Sources */,
+				A4E3B9DAE7F6567A3CE1353323516982 /* QRCodeReaderViewController.swift in Sources */,
+				3FB5BA9230FEE48753132A64EE996891 /* QRCodeReaderViewControllerBuilder.swift in Sources */,
+				3B2D220E5C868240CD0B787005284671 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
+				CD4D48D7A3A00D01E0C0B41E33FEA165 /* ReaderOverlayView.swift in Sources */,
+				27F3E4F9C731571115D25C69DA771B91 /* SwitchCameraButton.swift in Sources */,
+				67E4A130DD086AD508A4064D07071DA7 /* ToggleTorchButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E546CE0ED4C19DA4398331C3B4B497C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7FF9AD4720740E641EAF31560B93E0 /* Pods-FidelioAPP-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3644B6494FEDC862B747053C7F64999 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9756AA609755BD49B57B8B8BF2730120 /* Sources */ = {
+		E424089A1B4CDB88E747B5F58F5C64AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D1BBFE683B0636DB3F01E3C2B6D7130 /* SwiftIcons-dummy.m in Sources */,
-				380001A96746F56C589318ACA4239DAE /* SwiftIcons.swift in Sources */,
+				81757F684D084AC69DAE797488D314F2 /* MarqueeLabel-dummy.m in Sources */,
+				B812F90DB775AFDF1DFA13480D844916 /* MarqueeLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB3A7EAE75B89FC5DC93E892F5EC5C6E /* Sources */ = {
+		E7DB9AEE94C3F71EC9F6D7DF604AAD60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F1C6BBA7A540E060E7CF3EB106BB57C /* Pods-FidelioAPP-dummy.m in Sources */,
+				5CB6F6D84ABC9285380AED9DB4B14CE7 /* BannerColors.swift in Sources */,
+				6131918F7D68D9CF4F7F72C2EECB4FB0 /* BannerHapticGenerator.swift in Sources */,
+				9934F16C237A1A16241E331B0BB9342D /* BannerPositionFrame.swift in Sources */,
+				EEE17AEEEE036DA80B5DD375AA233454 /* BannerStyle.swift in Sources */,
+				C21277D26A696BF58393051D1F5909BE /* BaseNotificationBanner.swift in Sources */,
+				682A5E479FA6529BEED24DC43BBD685C /* NotificationBanner.swift in Sources */,
+				87808D9B07A8C7E54A446F8D894C7069 /* NotificationBannerQueue.swift in Sources */,
+				EC5F13C7C33DC6DD978B5D35013C16AA /* NotificationBannerSwift-dummy.m in Sources */,
+				53B967810C9AEBFF2E908D089E88A8D9 /* NotificationBannerUtilities.swift in Sources */,
+				E8EB9655DC9F33E37F1E0055FAB54453 /* StatusBarNotificationBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2170BA60BFE8EEB664DBB889495365E5 /* PBXTargetDependency */ = {
+		3F61B91A1EB8F0503F8DDC1B180D3C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 16B66C4B0E5D35B2F1155B6262C42CF5 /* SnapKit */;
+			targetProxy = 9C874BB51BD907BB0BC3823E0F3AF429 /* PBXContainerItemProxy */;
+		};
+		625C34DBD5690C51F9DE1FB9EDD40D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarqueeLabel;
+			target = 320AD47B0C6BA014D301395D3BFC8FB6 /* MarqueeLabel */;
+			targetProxy = DEE280ACAD9D23BC4E5A5B0AF425FD77 /* PBXContainerItemProxy */;
+		};
+		669EA66A29D12AB6C97884DD4AF18FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarqueeLabel;
+			target = 320AD47B0C6BA014D301395D3BFC8FB6 /* MarqueeLabel */;
+			targetProxy = F36A64D57F66A414BE1D7586FB873461 /* PBXContainerItemProxy */;
+		};
+		7155A80A74410DFBF0492B706B7CB487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 16B66C4B0E5D35B2F1155B6262C42CF5 /* SnapKit */;
+			targetProxy = 98B4ED0F82C8F7EFBC423B86D8BAE5E5 /* PBXContainerItemProxy */;
+		};
+		7254E83C4C1F51445BF55405E3179B91 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SwiftIcons-SwiftIcons";
-			target = 7D033947C748235D68BCB4CD467436D0 /* SwiftIcons-SwiftIcons */;
-			targetProxy = 97FAE5BF99D43C7D0B524CC6A83FBC44 /* PBXContainerItemProxy */;
+			target = B4A5E5A0D8C994FC9EE897B8D14DD825 /* SwiftIcons-SwiftIcons */;
+			targetProxy = 34806EB21A4F6238C6B41932A5B4FCD8 /* PBXContainerItemProxy */;
 		};
-		8B3936B49D9E25482EFFF4222C804E65 /* PBXTargetDependency */ = {
+		CC099435F5703FA1817150F6F994003D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = QRCodeReader.swift;
-			target = D71D3D0DBE5BC1AA1C7C4E1480EC63F1 /* QRCodeReader.swift */;
-			targetProxy = 9739D7F0BB33776C6A4F10823B51BE29 /* PBXContainerItemProxy */;
+			name = NotificationBannerSwift;
+			target = BC662CBB66DFBF297E1AE8050DE699D2 /* NotificationBannerSwift */;
+			targetProxy = 59BA862A8A58845F662459C3C69755F2 /* PBXContainerItemProxy */;
 		};
-		F8BAE92E78D54C4CBA0321AD746A85CE /* PBXTargetDependency */ = {
+		D0737DCBC176149F7550C5C8CBA4CDEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftIcons;
-			target = 7EF98D36B1D4AFDC7C9B1E2CA464E861 /* SwiftIcons */;
-			targetProxy = 53D8CB1F890FC2C5FA41F9D6CD59F7B3 /* PBXContainerItemProxy */;
+			target = DF6964B5863CEA48A2BB35C7F4475725 /* SwiftIcons */;
+			targetProxy = 725C7416326932BD54E61A96748528EB /* PBXContainerItemProxy */;
+		};
+		F526060603280D3A51445F8ABC982E28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRCodeReader.swift;
+			target = BAABF157DC256429D5409E49E8656CD7 /* QRCodeReader.swift */;
+			targetProxy = 2F4AF44E2E9DF6F0601697098001138D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AC10E18538EB20AD1C4A514B3050A49 /* Release */ = {
+		0F64C0AACA64F63581EF386435B29309 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5E33DCB2773CC2C20090137F8F48B0D /* QRCodeReader.swift.xcconfig */;
+			baseConfigurationReference = DB405956976AA303E062984B4FE815ED /* NotificationBannerSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -546,14 +1049,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/NotificationBannerSwift/NotificationBannerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NotificationBannerSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
-				PRODUCT_MODULE_NAME = QRCodeReader;
-				PRODUCT_NAME = QRCodeReader;
+				MODULEMAP_FILE = "Target Support Files/NotificationBannerSwift/NotificationBannerSwift.modulemap";
+				PRODUCT_MODULE_NAME = NotificationBannerSwift;
+				PRODUCT_NAME = NotificationBannerSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -566,7 +1069,43 @@
 			};
 			name = Release;
 		};
-		1B4D7FC6D5F3B5EDC873925A8996EC26 /* Debug */ = {
+		1122BF59988C8BA5BB33B7278829AD7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08F77BF9AD7604FBF1633AFB1314D57 /* Pods-FidelioAPP.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FidelioAPP/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FidelioAPP/Pods-FidelioAPP.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26E3DDF147138D847AA46643CA28F172 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 672A4E5076A82827DF58619A2DD5715F /* Pods-FidelioAPP.debug.xcconfig */;
 			buildSettings = {
@@ -596,6 +1135,86 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		283DEB7381C64FA5154D502F1899329D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F14AA673E11F4702FAB716FC753F174 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D6C43351329837B388815AB11F93655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67ADE4DCA782FC38CA48E910414AF9C1 /* SwiftIcons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftIcons";
+				INFOPLIST_FILE = "Target Support Files/SwiftIcons/ResourceBundle-SwiftIcons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SwiftIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2FB3A05748752FBBBFB4BA96E11509D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67ADE4DCA782FC38CA48E910414AF9C1 /* SwiftIcons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftIcons/SwiftIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftIcons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftIcons/SwiftIcons.modulemap";
+				PRODUCT_MODULE_NAME = SwiftIcons;
+				PRODUCT_NAME = SwiftIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -660,9 +1279,9 @@
 			};
 			name = Release;
 		};
-		630FEB6DF5F74623F022E4C139E12EA8 /* Debug */ = {
+		4CE577F8D2514414445ED9C97C3913D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5E33DCB2773CC2C20090137F8F48B0D /* QRCodeReader.swift.xcconfig */;
+			baseConfigurationReference = 2F14AA673E11F4702FAB716FC753F174 /* SnapKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -673,14 +1292,47 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
-				PRODUCT_MODULE_NAME = QRCodeReader;
-				PRODUCT_NAME = QRCodeReader;
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F6EA2DD569BA19B8259CC83CA84DFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E9E529D65D32D9631C2E4E34A70A1D /* MarqueeLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarqueeLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel.modulemap";
+				PRODUCT_MODULE_NAME = MarqueeLabel;
+				PRODUCT_NAME = MarqueeLabel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -692,45 +1344,9 @@
 			};
 			name = Debug;
 		};
-		711DA0118345DC5D4BC885A6DB93FF67 /* Release */ = {
+		644B468266E13698F4D150B7E6177E9D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B08F77BF9AD7604FBF1633AFB1314D57 /* Pods-FidelioAPP.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FidelioAPP/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FidelioAPP/Pods-FidelioAPP.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		89115B0B4DFEC74BB508EBA71B5CE6F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA000A65EA2618404C8D6A79A946E554 /* SwiftIcons.xcconfig */;
+			baseConfigurationReference = 67ADE4DCA782FC38CA48E910414AF9C1 /* SwiftIcons.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftIcons";
@@ -741,6 +1357,39 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7E8E846C83CDD2EB4B5AD43EECECDB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67ADE4DCA782FC38CA48E910414AF9C1 /* SwiftIcons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftIcons/SwiftIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftIcons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftIcons/SwiftIcons.modulemap";
+				PRODUCT_MODULE_NAME = SwiftIcons;
+				PRODUCT_NAME = SwiftIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -807,9 +1456,9 @@
 			};
 			name = Debug;
 		};
-		B06D287078DC74044671D57832E5038A /* Release */ = {
+		A14DD71A5019C93305784398BF1C235B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA000A65EA2618404C8D6A79A946E554 /* SwiftIcons.xcconfig */;
+			baseConfigurationReference = 434233BB65B42C7E396644CD23800CB9 /* QRCodeReader.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -820,14 +1469,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftIcons/SwiftIcons-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftIcons/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftIcons/SwiftIcons.modulemap";
-				PRODUCT_MODULE_NAME = SwiftIcons;
-				PRODUCT_NAME = SwiftIcons;
+				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
+				PRODUCT_MODULE_NAME = QRCodeReader;
+				PRODUCT_NAME = QRCodeReader;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -840,9 +1489,9 @@
 			};
 			name = Release;
 		};
-		C18CECE6050B5B012A95F76E110CE0CC /* Debug */ = {
+		CAF0AC8B30FCD2EC250A4CA2EF2AF051 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA000A65EA2618404C8D6A79A946E554 /* SwiftIcons.xcconfig */;
+			baseConfigurationReference = E6E9E529D65D32D9631C2E4E34A70A1D /* MarqueeLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -853,14 +1502,47 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftIcons/SwiftIcons-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftIcons/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarqueeLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel.modulemap";
+				PRODUCT_MODULE_NAME = MarqueeLabel;
+				PRODUCT_NAME = MarqueeLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2883CB9FEFEDE880F69DC9C45967557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB405956976AA303E062984B4FE815ED /* NotificationBannerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NotificationBannerSwift/NotificationBannerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NotificationBannerSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftIcons/SwiftIcons.modulemap";
-				PRODUCT_MODULE_NAME = SwiftIcons;
-				PRODUCT_NAME = SwiftIcons;
+				MODULEMAP_FILE = "Target Support Files/NotificationBannerSwift/NotificationBannerSwift.modulemap";
+				PRODUCT_MODULE_NAME = NotificationBannerSwift;
+				PRODUCT_NAME = NotificationBannerSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -872,25 +1554,50 @@
 			};
 			name = Debug;
 		};
-		CDAD1663196EDD216A8A2D9A6531BE30 /* Debug */ = {
+		FCA7003C978EB093CD313EE0AA267BF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA000A65EA2618404C8D6A79A946E554 /* SwiftIcons.xcconfig */;
+			baseConfigurationReference = 434233BB65B42C7E396644CD23800CB9 /* QRCodeReader.swift.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftIcons";
-				INFOPLIST_FILE = "Target Support Files/SwiftIcons/ResourceBundle-SwiftIcons-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = SwiftIcons;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
+				PRODUCT_MODULE_NAME = QRCodeReader;
+				PRODUCT_NAME = QRCodeReader;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		00A45C63F42C51E4FE73882299D1B1C5 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA7003C978EB093CD313EE0AA267BF6 /* Debug */,
+				A14DD71A5019C93305784398BF1C235B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -900,38 +1607,56 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		509D361454767A6C0BF46E3A4CC4DF5E /* Build configuration list for PBXNativeTarget "SwiftIcons" */ = {
+		41080EFC9A72590CDE51AECF389F7CEC /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C18CECE6050B5B012A95F76E110CE0CC /* Debug */,
-				B06D287078DC74044671D57832E5038A /* Release */,
+				283DEB7381C64FA5154D502F1899329D /* Debug */,
+				4CE577F8D2514414445ED9C97C3913D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		867BFB90A0CBFA44A9216877908423FD /* Build configuration list for PBXNativeTarget "Pods-FidelioAPP" */ = {
+		85F33EFC2A1C562D57BEA6DD2C4C12FD /* Build configuration list for PBXNativeTarget "NotificationBannerSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B4D7FC6D5F3B5EDC873925A8996EC26 /* Debug */,
-				711DA0118345DC5D4BC885A6DB93FF67 /* Release */,
+				F2883CB9FEFEDE880F69DC9C45967557 /* Debug */,
+				0F64C0AACA64F63581EF386435B29309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EE97596B84623B37870F927CA63D6EC /* Build configuration list for PBXNativeTarget "SwiftIcons-SwiftIcons" */ = {
+		AB93BA3C12E3426B5019CB531E1C08DC /* Build configuration list for PBXNativeTarget "MarqueeLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDAD1663196EDD216A8A2D9A6531BE30 /* Debug */,
-				89115B0B4DFEC74BB508EBA71B5CE6F5 /* Release */,
+				5F6EA2DD569BA19B8259CC83CA84DFBE /* Debug */,
+				CAF0AC8B30FCD2EC250A4CA2EF2AF051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F978988675F9E11C99CCF845DF0B73AF /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */ = {
+		AFDB679A807D4EDDDE11BD5226917E21 /* Build configuration list for PBXNativeTarget "SwiftIcons-SwiftIcons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				630FEB6DF5F74623F022E4C139E12EA8 /* Debug */,
-				0AC10E18538EB20AD1C4A514B3050A49 /* Release */,
+				644B468266E13698F4D150B7E6177E9D /* Debug */,
+				2D6C43351329837B388815AB11F93655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2798B4A98457E9C9D1A7F8FFD040C7C /* Build configuration list for PBXNativeTarget "SwiftIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB3A05748752FBBBFB4BA96E11509D5 /* Debug */,
+				7E8E846C83CDD2EB4B5AD43EECECDB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6958D12320680403BA338B40FEC40DA /* Build configuration list for PBXNativeTarget "Pods-FidelioAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E3DDF147138D847AA46643CA28F172 /* Debug */,
+				1122BF59988C8BA5BB33B7278829AD7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

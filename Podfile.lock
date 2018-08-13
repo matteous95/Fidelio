@@ -1,20 +1,32 @@
 PODS:
+  - MarqueeLabel/Swift (3.1.4)
+  - NotificationBannerSwift (1.6.2):
+    - MarqueeLabel/Swift
+    - SnapKit (~> 4.0)
   - QRCodeReader.swift (8.1.1)
+  - SnapKit (4.0.0)
   - SwiftIcons (2.0.1)
 
 DEPENDENCIES:
+  - NotificationBannerSwift
   - QRCodeReader.swift (~> 8.1.1)
   - SwiftIcons (~> 2.0.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - MarqueeLabel
+    - NotificationBannerSwift
     - QRCodeReader.swift
+    - SnapKit
     - SwiftIcons
 
 SPEC CHECKSUMS:
+  MarqueeLabel: bf768455fe88d427f71476ebb23f9092b660f40b
+  NotificationBannerSwift: 4eceb2add9d5eaa0596c63d49690b4d6476e74ec
   QRCodeReader.swift: b164a681887de276d405ff02bce854d82cd6360b
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SwiftIcons: e475a56ae2c2da40672dbf16061ca5dd5cee7dbb
 
-PODFILE CHECKSUM: dbd28191e85467f669f6858f126a39d3f729311f
+PODFILE CHECKSUM: a3373d0731f3f3003ce778e72d69a9dbb07b3384
 
 COCOAPODS: 1.5.0

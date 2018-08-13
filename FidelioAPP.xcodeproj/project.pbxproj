@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		091FDACBCDB0CD2F2CED6315 /* Pods_FidelioAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74382C8E0D3F3983BDB0AD02 /* Pods_FidelioAPP.framework */; };
+		952518C22111BD31002B496F /* viewEditClienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952518C12111BD31002B496F /* viewEditClienteController.swift */; };
+		952518C42111BD50002B496F /* cellEditClienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952518C32111BD50002B496F /* cellEditClienteController.swift */; };
 		9536DEED20B8A67300DC97ED /* ClienteClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9536DEEC20B8A67300DC97ED /* ClienteClient.swift */; };
 		9538B7BF20B1E6E0003C2725 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9538B7BE20B1E6E0003C2725 /* Endpoint.swift */; };
 		9538B7C120B1E6F2003C2725 /* GenericAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9538B7C020B1E6F2003C2725 /* GenericAPIClient.swift */; };
@@ -25,6 +27,9 @@
 		957D9ECF2094E0D50009F7D0 /* Cliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D9ECE2094E0D50009F7D0 /* Cliente.swift */; };
 		95888A1C20D52FB9003C65E7 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95888A1B20D52FB9003C65E7 /* AppColor.swift */; };
 		9588EBE6209F225D004024D7 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9588EBE5209F225D004024D7 /* Login.swift */; };
+		9589B7B9211707BF001053F8 /* Provincia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589B7B8211707BF001053F8 /* Provincia.swift */; };
+		9589B7BB211708AF001053F8 /* ProvinceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589B7BA211708AF001053F8 /* ProvinceClient.swift */; };
+		9589B7BF21170995001053F8 /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589B7BE21170995001053F8 /* Province.swift */; };
 		958FA8062092430800F91F0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958FA8052092430800F91F0D /* AppDelegate.swift */; };
 		958FA8082092430800F91F0D /* ViewLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958FA8072092430800F91F0D /* ViewLoginController.swift */; };
 		958FA80B2092430800F91F0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958FA8092092430800F91F0D /* Main.storyboard */; };
@@ -49,6 +54,8 @@
 		3E7386C42C6A786B9FB1C449 /* Pods-FidelioAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FidelioAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FidelioAPP/Pods-FidelioAPP.debug.xcconfig"; sourceTree = "<group>"; };
 		4D558844C5CEB51BBBA5D336 /* Pods-FidelioAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FidelioAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-FidelioAPP/Pods-FidelioAPP.release.xcconfig"; sourceTree = "<group>"; };
 		74382C8E0D3F3983BDB0AD02 /* Pods_FidelioAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FidelioAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		952518C12111BD31002B496F /* viewEditClienteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewEditClienteController.swift; sourceTree = "<group>"; };
+		952518C32111BD50002B496F /* cellEditClienteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellEditClienteController.swift; sourceTree = "<group>"; };
 		9536DEEC20B8A67300DC97ED /* ClienteClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClienteClient.swift; sourceTree = "<group>"; };
 		9538B7BE20B1E6E0003C2725 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		9538B7C020B1E6F2003C2725 /* GenericAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericAPIClient.swift; sourceTree = "<group>"; };
@@ -66,6 +73,9 @@
 		957D9ECE2094E0D50009F7D0 /* Cliente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cliente.swift; sourceTree = "<group>"; };
 		95888A1B20D52FB9003C65E7 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		9588EBE5209F225D004024D7 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		9589B7B8211707BF001053F8 /* Provincia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provincia.swift; sourceTree = "<group>"; };
+		9589B7BA211708AF001053F8 /* ProvinceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvinceClient.swift; sourceTree = "<group>"; };
+		9589B7BE21170995001053F8 /* Province.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
 		958FA8022092430800F91F0D /* FidelioAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FidelioAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		958FA8052092430800F91F0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		958FA8072092430800F91F0D /* ViewLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoginController.swift; sourceTree = "<group>"; };
@@ -107,6 +117,15 @@
 				4D558844C5CEB51BBBA5D336 /* Pods-FidelioAPP.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		952518C02111BCF9002B496F /* Edit Cliente */ = {
+			isa = PBXGroup;
+			children = (
+				952518C12111BD31002B496F /* viewEditClienteController.swift */,
+				952518C32111BD50002B496F /* cellEditClienteController.swift */,
+			);
+			path = "Edit Cliente";
 			sourceTree = "<group>";
 		};
 		9538B7BD20B1E6C3003C2725 /* Networking */ = {
@@ -156,6 +175,7 @@
 		957D9ECD2094E0B10009F7D0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9589B7B7211707A9001053F8 /* Province */,
 				9599DB0520DE562E00981415 /* Acquisti */,
 				9599DB0420DE562100981415 /* Clienti */,
 				9599DB0320DE561800981415 /* Login */,
@@ -179,6 +199,16 @@
 				95888A1B20D52FB9003C65E7 /* AppColor.swift */,
 			);
 			path = Grafica;
+			sourceTree = "<group>";
+		};
+		9589B7B7211707A9001053F8 /* Province */ = {
+			isa = PBXGroup;
+			children = (
+				9589B7B8211707BF001053F8 /* Provincia.swift */,
+				9589B7BE21170995001053F8 /* Province.swift */,
+				9589B7BA211708AF001053F8 /* ProvinceClient.swift */,
+			);
+			path = Province;
 			sourceTree = "<group>";
 		};
 		958FA7F92092430800F91F0D = {
@@ -250,6 +280,7 @@
 			children = (
 				957D9ECB2094DAA10009F7D0 /* viewClientiController.swift */,
 				959860AD20BAC81900B77638 /* cellClientiController.swift */,
+				952518C02111BCF9002B496F /* Edit Cliente */,
 				9599DB0120DE55B000981415 /* Dettaglio Cliente */,
 			);
 			path = Clienti;
@@ -393,12 +424,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FidelioAPP/Pods-FidelioAPP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NotificationBannerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,17 +470,22 @@
 			files = (
 				9538B7BF20B1E6E0003C2725 /* Endpoint.swift in Sources */,
 				957957CD20C2F18600DBFF14 /* cellClienteAcquistiController.swift in Sources */,
+				9589B7BB211708AF001053F8 /* ProvinceClient.swift in Sources */,
 				95A23C4E20C1CAA100FEAF4D /* AcquistiClient.swift in Sources */,
 				95B45D3520C1CE8600809321 /* viewStoricoAcquistiController.swift in Sources */,
 				954892AE20B75D0800E81D6E /* ClientiClient.swift in Sources */,
 				9538B7C520B1E70D003C2725 /* LoginClient.swift in Sources */,
 				959860AE20BAC81900B77638 /* cellClientiController.swift in Sources */,
 				9598E0AD20BDD09F00F46ED5 /* viewDettaglioClienteController.swift in Sources */,
+				9589B7BF21170995001053F8 /* Province.swift in Sources */,
+				952518C42111BD50002B496F /* cellEditClienteController.swift in Sources */,
+				952518C22111BD31002B496F /* viewEditClienteController.swift in Sources */,
 				95A23C4820C1C62200FEAF4D /* Acquisti.swift in Sources */,
 				9591108920E7AE6A000B1B44 /* ParametriUrl.swift in Sources */,
 				958FA8082092430800F91F0D /* ViewLoginController.swift in Sources */,
 				957D9ECC2094DAA10009F7D0 /* viewClientiController.swift in Sources */,
 				958FA8062092430800F91F0D /* AppDelegate.swift in Sources */,
+				9589B7B9211707BF001053F8 /* Provincia.swift in Sources */,
 				9538B7C320B1E6FF003C2725 /* Result.swift in Sources */,
 				95D331AD2095D5A30036178A /* viewAcquisto.swift in Sources */,
 				958FA81C20926D8500F91F0D /* MainMenuController.swift in Sources */,

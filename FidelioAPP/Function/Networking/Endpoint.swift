@@ -92,6 +92,7 @@ enum CallFeed {
     case callCliente
     case callAcquisti
     case callClienteAcquisti
+    case callProvince
     
 }
 
@@ -114,6 +115,7 @@ extension CallFeed: Endpoint {
         case .callCliente: return "/api/user/clienti/$P1"
         case .callAcquisti: return "/api/user/acquisti"
         case .callClienteAcquisti: return "/api/user/clienti/$P1/acquisti"
+        case .callProvince: return "/api/user/province"
 
         }
 

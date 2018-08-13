@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import NotificationBannerSwift
 
 
 class ViewLoginController: UIViewController {
@@ -18,6 +18,7 @@ class ViewLoginController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -27,7 +28,11 @@ class ViewLoginController: UIViewController {
     }
 
     @IBAction func pressLogin(_ sender: Any) {
+
         if txtEmail.text == nil || txtEmail.text == "" || txtPassword.text == nil || txtPassword.text == "" {
+            let leftView = UIImageView(image: UIImage.init(icon: .fontAwesome(.warning), size: CGSize(width: 24, height: 24), textColor: UIColor.white))
+            let banner = NotificationBanner(title: "ATTENZIONE!", subtitle: "Inserire le credenziali !", leftView: leftView, style: .warning)
+            banner.show()
             print("Inserire le credenziali prima di effettuare l'accesso!")
             effettuaLogin()
         }else{
@@ -54,6 +59,10 @@ class ViewLoginController: UIViewController {
             case .failure(let error):
                 print("the error \(error)")
                 print("Accesso negato")
+                let leftView = UIImageView(image: UIImage.init(icon: .fontAwesome(.warning), size: CGSize(width: 24, height: 24), textColor: UIColor.white))
+                let banner = NotificationBanner(title: "Accesso negato!", subtitle: "the error \(error)", leftView: leftView, style: .danger)
+                banner.show()
+                print("errore!")
             }
             
         }

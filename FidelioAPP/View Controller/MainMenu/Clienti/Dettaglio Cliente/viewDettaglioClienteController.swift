@@ -76,7 +76,7 @@ class viewDettaglioClienteController: UITableViewController {
         if Cliente == nil {
             return cell
         }
-
+        cell.txtValore.textContainerInset = UIEdgeInsets(top: 0, left: 0, bottom: 50, right: 50)
         switch indexPath.row{
         case 0:
                 let cellQRC = tableView.dequeueReusableCell(withIdentifier: "cellQRCode", for: indexPath) as! cellQRCodeClienteController
@@ -148,7 +148,11 @@ class viewDettaglioClienteController: UITableViewController {
     }
     
 
-
+    @IBAction func pressBtnModifica(_ sender: Any) {
+        performSegue(withIdentifier: "toEditCliente", sender: currIDCliente )
+    }
+    
+    
     @IBAction func pressBtnAcquisti(_ sender: Any) {
         performSegue(withIdentifier: "toAcquistiCliente", sender: currIDCliente )
     }
@@ -157,9 +161,14 @@ class viewDettaglioClienteController: UITableViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toAcquistiCliente"{
-         let vc = segue.destination as! viewClienteAcquistiController
-         vc.IDCliente = sender as? Int
+             let vc = segue.destination as! viewClienteAcquistiController
+             vc.IDCliente = sender as? Int
          }
+        
+        if segue.identifier == "toEditCliente"{
+            let vc = segue.destination as! viewEditClienteController
+            vc.IDCliente = sender as? Int
+        }
     }
     
 }

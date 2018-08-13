@@ -13,6 +13,8 @@ class viewClienteAcquistiController: UITableViewController {
     private let client = ClienteAcquistiClient()
     var Acquisti : [Acquisto]? = []
     var IDCliente: Int?
+    var currPageAcquisti: pageAcquisti?  //MATTEO: pagination corrente acquisti
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,16 +27,22 @@ class viewClienteAcquistiController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    func caricaAcquistiCliente () {
+    func caricaAcquistiCliente (numPage: Int? = nil) {
         let strID = [String(IDCliente!)]
-        client.getFeed(paramID: strID, from: .callClienteAcquisti) { [weak self] result in
+        client.getFeed(page: numPage, paramID: strID, from: .callClienteAcquisti) { [weak self] result in
             
             switch result {
             case .success(let acquistiFeedResult):
                 guard let acquistiResults = acquistiFeedResult else {
                     return
                 }
-                self?.Acquisti = acquistiResults.results?.sorted(by: {$0.data_acquisto! > $1.data_acquisto!})
+                self?.currPageAcquisti = acquistiResults
+                //MATTEO: dall'array di clienti che ottengo aggiungo ogni elemnto all'array di clienti collegati alla table view
+                if  acquistiResults.risAcquisti?.results != nil {
+                    for acquisto in  (acquistiResults.risAcquisti?.results)! {
+                        self?.Acquisti?.append(acquisto)
+                    }
+                }
                 self?.tableView.reloadData()
                 
             case .failure(let error):
@@ -56,6 +64,13 @@ class viewClienteAcquistiController: UITableViewController {
         }
 
        override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            //MATTEO: controllo se sono arrivato alla fine dello scroll per collegare l'altra pagination
+            if (indexPath.row + 1) == ((currPageAcquisti?.current_page)! * (currPageAcquisti?.per_page)!) {
+                //MATTEO: controllo se sono nell'ultima page
+                if currPageAcquisti?.last_page  != currPageAcquisti?.current_page {
+                    caricaAcquistiCliente(numPage: (currPageAcquisti?.current_page)! + 1)
+                }
+            }
             let cell = tableView.dequeueReusableCell(withIdentifier: "cellAcquistiCli", for: indexPath) as! cellClienteAcquistiController
             if Acquisti == nil {
                 return cell

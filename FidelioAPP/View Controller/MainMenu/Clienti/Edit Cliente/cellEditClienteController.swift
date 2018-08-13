@@ -1,17 +1,17 @@
 //
-//  viewDettaglioClienteCell.swift
+//  cellEditClienteController.swift
 //  FidelioAPP
 //
-//  Created by Matteo on 27/05/18.
+//  Created by Matteo on 01/08/18.
 //  Copyright © 2018 Matteo. All rights reserved.
 //
 
 import UIKit
 
-class cellDettaglioClienteController: UITableViewCell {
+class cellEditClienteController: UITableViewCell {
+
     @IBOutlet weak var lblDescrizione: UILabel!
-    @IBOutlet weak var txtValore: UITextView!
-    @IBOutlet weak var imgIcon: UIImageView!
+    @IBOutlet weak var txtValore: UITextField!
     
     
     override func awakeFromNib() {

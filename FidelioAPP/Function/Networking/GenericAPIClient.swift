@@ -49,6 +49,7 @@ extension APIClient {
                 if let data = data {
                     do {
                         let json = try JSONSerialization.jsonObject(with: data)
+                        print(json)
                         let genericModel = try JSONDecoder().decode(decodingType, from: data)
                         completion(genericModel, nil)
                     } catch {
