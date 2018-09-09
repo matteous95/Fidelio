@@ -8,16 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		091FDACBCDB0CD2F2CED6315 /* Pods_FidelioAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74382C8E0D3F3983BDB0AD02 /* Pods_FidelioAPP.framework */; };
-		952518C22111BD31002B496F /* viewEditClienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952518C12111BD31002B496F /* viewEditClienteController.swift */; };
-		952518C42111BD50002B496F /* cellEditClienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952518C32111BD50002B496F /* cellEditClienteController.swift */; };
+		952D17D62126F2B900777352 /* ClienteUpdateClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D17D52126F2B900777352 /* ClienteUpdateClient.swift */; };
 		9536DEED20B8A67300DC97ED /* ClienteClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9536DEEC20B8A67300DC97ED /* ClienteClient.swift */; };
 		9538B7BF20B1E6E0003C2725 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9538B7BE20B1E6E0003C2725 /* Endpoint.swift */; };
 		9538B7C120B1E6F2003C2725 /* GenericAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9538B7C020B1E6F2003C2725 /* GenericAPIClient.swift */; };
 		9538B7C320B1E6FF003C2725 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9538B7C220B1E6FF003C2725 /* Result.swift */; };
 		9538B7C520B1E70D003C2725 /* LoginClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9538B7C420B1E70D003C2725 /* LoginClient.swift */; };
+		95488ACB2121C77400516B64 /* viewModificaClienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95488ACA2121C77400516B64 /* viewModificaClienteController.swift */; };
 		954892AE20B75D0800E81D6E /* ClientiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954892AD20B75D0800E81D6E /* ClientiClient.swift */; };
 		954892B020B75D1400E81D6E /* Clienti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954892AF20B75D1400E81D6E /* Clienti.swift */; };
-		95491E3620BB4EDD00C87D4A /* cellDettaglioClienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95491E3520BB4EDD00C87D4A /* cellDettaglioClienteController.swift */; };
 		956E6D0720D3092A0027F22A /* logo-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 956E6D0620D3092A0027F22A /* logo-green.png */; };
 		95785B6C2097777A005CA31C /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95785B6B2097777A005CA31C /* CameraController.swift */; };
 		957957C420C2EF7000DBFF14 /* ClienteAcquistiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957957C320C2EF7000DBFF14 /* ClienteAcquistiClient.swift */; };
@@ -38,13 +37,14 @@
 		958FA81C20926D8500F91F0D /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958FA81B20926D8500F91F0D /* MainMenuController.swift */; };
 		9591108920E7AE6A000B1B44 /* ParametriUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591108820E7AE6A000B1B44 /* ParametriUrl.swift */; };
 		9597163F20DAF83D001EE536 /* qrCodeTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 9597163E20DAF83D001EE536 /* qrCodeTest.png */; };
-		9597164120DAF8F2001EE536 /* cellQRCodeClienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9597164020DAF8F2001EE536 /* cellQRCodeClienteController.swift */; };
 		959860AE20BAC81900B77638 /* cellClientiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959860AD20BAC81900B77638 /* cellClientiController.swift */; };
 		9598E0AD20BDD09F00F46ED5 /* viewDettaglioClienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9598E0AC20BDD09F00F46ED5 /* viewDettaglioClienteController.swift */; };
 		9599DB0920DE5C1600981415 /* cellStoricoAcquisti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599DB0820DE5C1600981415 /* cellStoricoAcquisti.swift */; };
 		95A23C4820C1C62200FEAF4D /* Acquisti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A23C4720C1C62200FEAF4D /* Acquisti.swift */; };
 		95A23C4A20C1C65C00FEAF4D /* Acquisto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A23C4920C1C65C00FEAF4D /* Acquisto.swift */; };
 		95A23C4E20C1CAA100FEAF4D /* AcquistiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A23C4D20C1CAA100FEAF4D /* AcquistiClient.swift */; };
+		95B42BF42132B6B8004CD78D /* viewProvinceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B42BF32132B6B8004CD78D /* viewProvinceController.swift */; };
+		95B42BF62132B6D3004CD78D /* cellProvinceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B42BF52132B6D3004CD78D /* cellProvinceController.swift */; };
 		95B45D3520C1CE8600809321 /* viewStoricoAcquistiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B45D3420C1CE8600809321 /* viewStoricoAcquistiController.swift */; };
 		95B45D3720C1D1A600809321 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B45D3620C1D1A600809321 /* LocalStorage.swift */; };
 		95D331AD2095D5A30036178A /* viewAcquisto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D331AC2095D5A30036178A /* viewAcquisto.swift */; };
@@ -54,16 +54,15 @@
 		3E7386C42C6A786B9FB1C449 /* Pods-FidelioAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FidelioAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FidelioAPP/Pods-FidelioAPP.debug.xcconfig"; sourceTree = "<group>"; };
 		4D558844C5CEB51BBBA5D336 /* Pods-FidelioAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FidelioAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-FidelioAPP/Pods-FidelioAPP.release.xcconfig"; sourceTree = "<group>"; };
 		74382C8E0D3F3983BDB0AD02 /* Pods_FidelioAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FidelioAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		952518C12111BD31002B496F /* viewEditClienteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewEditClienteController.swift; sourceTree = "<group>"; };
-		952518C32111BD50002B496F /* cellEditClienteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellEditClienteController.swift; sourceTree = "<group>"; };
+		952D17D52126F2B900777352 /* ClienteUpdateClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClienteUpdateClient.swift; sourceTree = "<group>"; };
 		9536DEEC20B8A67300DC97ED /* ClienteClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClienteClient.swift; sourceTree = "<group>"; };
 		9538B7BE20B1E6E0003C2725 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		9538B7C020B1E6F2003C2725 /* GenericAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericAPIClient.swift; sourceTree = "<group>"; };
 		9538B7C220B1E6FF003C2725 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		9538B7C420B1E70D003C2725 /* LoginClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginClient.swift; sourceTree = "<group>"; };
+		95488ACA2121C77400516B64 /* viewModificaClienteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModificaClienteController.swift; sourceTree = "<group>"; };
 		954892AD20B75D0800E81D6E /* ClientiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientiClient.swift; sourceTree = "<group>"; };
 		954892AF20B75D1400E81D6E /* Clienti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clienti.swift; sourceTree = "<group>"; };
-		95491E3520BB4EDD00C87D4A /* cellDettaglioClienteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellDettaglioClienteController.swift; sourceTree = "<group>"; };
 		956E6D0620D3092A0027F22A /* logo-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-green.png"; sourceTree = "<group>"; };
 		95785B6B2097777A005CA31C /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		957957C320C2EF7000DBFF14 /* ClienteAcquistiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClienteAcquistiClient.swift; sourceTree = "<group>"; };
@@ -86,13 +85,14 @@
 		958FA81B20926D8500F91F0D /* MainMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
 		9591108820E7AE6A000B1B44 /* ParametriUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametriUrl.swift; sourceTree = "<group>"; };
 		9597163E20DAF83D001EE536 /* qrCodeTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrCodeTest.png; sourceTree = "<group>"; };
-		9597164020DAF8F2001EE536 /* cellQRCodeClienteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellQRCodeClienteController.swift; sourceTree = "<group>"; };
 		959860AD20BAC81900B77638 /* cellClientiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellClientiController.swift; sourceTree = "<group>"; };
 		9598E0AC20BDD09F00F46ED5 /* viewDettaglioClienteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewDettaglioClienteController.swift; sourceTree = "<group>"; };
 		9599DB0820DE5C1600981415 /* cellStoricoAcquisti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellStoricoAcquisti.swift; sourceTree = "<group>"; };
 		95A23C4720C1C62200FEAF4D /* Acquisti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acquisti.swift; sourceTree = "<group>"; };
 		95A23C4920C1C65C00FEAF4D /* Acquisto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acquisto.swift; sourceTree = "<group>"; };
 		95A23C4D20C1CAA100FEAF4D /* AcquistiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcquistiClient.swift; sourceTree = "<group>"; };
+		95B42BF32132B6B8004CD78D /* viewProvinceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewProvinceController.swift; sourceTree = "<group>"; };
+		95B42BF52132B6D3004CD78D /* cellProvinceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellProvinceController.swift; sourceTree = "<group>"; };
 		95B45D3420C1CE8600809321 /* viewStoricoAcquistiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewStoricoAcquistiController.swift; sourceTree = "<group>"; };
 		95B45D3620C1D1A600809321 /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
 		95D331AC2095D5A30036178A /* viewAcquisto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewAcquisto.swift; sourceTree = "<group>"; };
@@ -122,8 +122,9 @@
 		952518C02111BCF9002B496F /* Edit Cliente */ = {
 			isa = PBXGroup;
 			children = (
-				952518C12111BD31002B496F /* viewEditClienteController.swift */,
-				952518C32111BD50002B496F /* cellEditClienteController.swift */,
+				95488ACA2121C77400516B64 /* viewModificaClienteController.swift */,
+				95B42BF32132B6B8004CD78D /* viewProvinceController.swift */,
+				95B42BF52132B6D3004CD78D /* cellProvinceController.swift */,
 			);
 			path = "Edit Cliente";
 			sourceTree = "<group>";
@@ -290,8 +291,6 @@
 			isa = PBXGroup;
 			children = (
 				9598E0AC20BDD09F00F46ED5 /* viewDettaglioClienteController.swift */,
-				9597164020DAF8F2001EE536 /* cellQRCodeClienteController.swift */,
-				95491E3520BB4EDD00C87D4A /* cellDettaglioClienteController.swift */,
 				9599DB0220DE55D200981415 /* Acquisti Cliente */,
 			);
 			path = "Dettaglio Cliente";
@@ -322,6 +321,7 @@
 				954892AD20B75D0800E81D6E /* ClientiClient.swift */,
 				957D9ECE2094E0D50009F7D0 /* Cliente.swift */,
 				9536DEEC20B8A67300DC97ED /* ClienteClient.swift */,
+				952D17D52126F2B900777352 /* ClienteUpdateClient.swift */,
 			);
 			path = Clienti;
 			sourceTree = "<group>";
@@ -478,12 +478,11 @@
 				959860AE20BAC81900B77638 /* cellClientiController.swift in Sources */,
 				9598E0AD20BDD09F00F46ED5 /* viewDettaglioClienteController.swift in Sources */,
 				9589B7BF21170995001053F8 /* Province.swift in Sources */,
-				952518C42111BD50002B496F /* cellEditClienteController.swift in Sources */,
-				952518C22111BD31002B496F /* viewEditClienteController.swift in Sources */,
 				95A23C4820C1C62200FEAF4D /* Acquisti.swift in Sources */,
 				9591108920E7AE6A000B1B44 /* ParametriUrl.swift in Sources */,
 				958FA8082092430800F91F0D /* ViewLoginController.swift in Sources */,
 				957D9ECC2094DAA10009F7D0 /* viewClientiController.swift in Sources */,
+				95B42BF42132B6B8004CD78D /* viewProvinceController.swift in Sources */,
 				958FA8062092430800F91F0D /* AppDelegate.swift in Sources */,
 				9589B7B9211707BF001053F8 /* Provincia.swift in Sources */,
 				9538B7C320B1E6FF003C2725 /* Result.swift in Sources */,
@@ -493,11 +492,12 @@
 				95888A1C20D52FB9003C65E7 /* AppColor.swift in Sources */,
 				9536DEED20B8A67300DC97ED /* ClienteClient.swift in Sources */,
 				9588EBE6209F225D004024D7 /* Login.swift in Sources */,
+				95488ACB2121C77400516B64 /* viewModificaClienteController.swift in Sources */,
 				954892B020B75D1400E81D6E /* Clienti.swift in Sources */,
+				952D17D62126F2B900777352 /* ClienteUpdateClient.swift in Sources */,
 				9599DB0920DE5C1600981415 /* cellStoricoAcquisti.swift in Sources */,
 				95785B6C2097777A005CA31C /* CameraController.swift in Sources */,
-				9597164120DAF8F2001EE536 /* cellQRCodeClienteController.swift in Sources */,
-				95491E3620BB4EDD00C87D4A /* cellDettaglioClienteController.swift in Sources */,
+				95B42BF62132B6D3004CD78D /* cellProvinceController.swift in Sources */,
 				957957C920C2F10800DBFF14 /* viewClienteAcquistiController.swift in Sources */,
 				9538B7C120B1E6F2003C2725 /* GenericAPIClient.swift in Sources */,
 				95B45D3720C1D1A600809321 /* LocalStorage.swift in Sources */,

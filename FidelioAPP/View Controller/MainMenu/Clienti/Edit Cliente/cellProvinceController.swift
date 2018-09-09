@@ -1,15 +1,15 @@
 //
-//  cellQRCodeClienteController.swift
+//  cellProvinceController.swift
 //  FidelioAPP
 //
-//  Created by Matteo on 20/06/18.
+//  Created by Matteo on 26/08/18.
 //  Copyright © 2018 Matteo. All rights reserved.
 //
 
 import UIKit
 
-class cellQRCodeClienteController: UITableViewCell {
-    @IBOutlet weak var imgQRCode: UIImageView!
+class cellProvinceController: UITableViewCell {
+    @IBOutlet weak var lblProvincia: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

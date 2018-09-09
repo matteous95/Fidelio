@@ -22,6 +22,30 @@ extension Endpoint {
     //parametri -> parametri delle chiamate in post httpBody
     //withToken -> se la chiamat ha bisogno o no del token
     //paramUrl -> parametri presenti in chiaro nell'url
+    
+    func getRequestPut(parametriPUT: [String:String]? = nil, parametriQUERY: [URLQueryItem]? = nil, parametriURL: [String]? = nil) -> URLRequest {
+        let Components = getUrlComponent(paramUrl: parametriURL, paramQuery: parametriQUERY)
+        let url = Components.url!
+        var request = URLRequest(url: url)
+        request.httpMethod = "PUT"
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        //MATTEO: se ci sono parametri POST li metto nel http body
+        if parametriPUT != nil {
+            guard let httpBody = try? JSONSerialization.data(withJSONObject: parametriPUT!, options: []) else {
+                return request
+            }
+            request.httpBody = httpBody
+        }
+        return request
+    }
+    
+    
+    
+    
+    //MATTEO: chiamata web service in post
+    //parametri -> parametri delle chiamate in post httpBody
+    //withToken -> se la chiamat ha bisogno o no del token
+    //paramUrl -> parametri presenti in chiaro nell'url
 
     func getRequestPost(parametriPOST: [String:String]? = nil, parametriQUERY: [URLQueryItem]? = nil, parametriURL: [String]? = nil) -> URLRequest {
         let Components = getUrlComponent(paramUrl: parametriURL, paramQuery: parametriQUERY)
@@ -47,6 +71,9 @@ extension Endpoint {
         let url = Components.url!
         return URLRequest(url: url)
     }
+    
+    
+    
     
     
     //MATTEO: compogno l'url di default e aggiungo i parametri all'url se servono

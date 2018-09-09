@@ -176,7 +176,7 @@ class viewClientiController: UITableViewController, UISearchResultsUpdating, UIS
         }
         
         if segue.identifier == "toNewCliente"{
-            let vc = segue.destination as! viewEditClienteController
+            let vc = segue.destination as! viewModificaClienteController
             vc.IDCliente = sender as? Int
         }
 
